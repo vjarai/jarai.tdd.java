@@ -3,11 +3,9 @@ package ex02_OutsideInTDD;
 import org.junit.jupiter.api.Test;
 
 
-public class KontoTests
-{
-     @Test
-    public void EinzahlenTest()
-    {
+public class KontoTests {
+    @Test
+    public void EinzahlenTest() {
         // Arrange
         var target = new Konto(new FakeKalenderService());
 
@@ -15,9 +13,8 @@ public class KontoTests
         target.Einzahlen(100);
     }
 
-     @Test
-    public void AbhebenTest()
-    {
+    @Test
+    public void AbhebenTest() {
         // Arrange
         var target = new Konto(new FakeKalenderService());
 

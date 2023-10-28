@@ -3,11 +3,9 @@ package ex02_OutsideInTDD;
 import org.junit.jupiter.api.Test;
 
 
-public class ApprovalTest
-{
+public class ApprovalTest {
     @Test
-    public void KontoauszugTest()
-    {
+    public void KontoauszugTest() {
         // Arrange
         var target = new Konto(new FakeKalenderService());
         target.Einzahlen(100);

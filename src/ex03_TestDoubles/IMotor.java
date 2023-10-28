@@ -1,7 +1,7 @@
 package ex03_TestDoubles;
 
-public interface IMotor
-{
+public interface IMotor {
     void Anlassen();
+
     void Abstellen();
 }

@@ -3,11 +3,9 @@ package ex03_TestDoubles;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-public class PkwTestsUsingMoqMockedMotor
-{
+public class PkwTestsUsingMoqMockedMotor {
     @Test
-    public void Fahren_startet_Motor()
-    {
+    public void Fahren_startet_Motor() {
         // Arrange
         var motorMock = Mockito.mock(IMotor.class); // Generate mocked motor
 
@@ -21,8 +19,7 @@ public class PkwTestsUsingMoqMockedMotor
     }
 
     @Test
-    public void Fahren_stoppt_Motor()
-    {
+    public void Fahren_stoppt_Motor() {
         // Arrange
         var motorMock = Mockito.mock(IMotor.class);
         var target = new Pkw(motorMock);

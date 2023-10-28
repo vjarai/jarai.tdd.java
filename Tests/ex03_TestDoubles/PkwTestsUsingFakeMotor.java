@@ -3,11 +3,9 @@ package ex03_TestDoubles;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class PkwTestsUsingFakeMotor
-{
+public class PkwTestsUsingFakeMotor {
     @Test
-    public void Fahren_erhoeht_Tachostand()
-    {
+    public void Fahren_erhoeht_Tachostand() {
         // Arrange
         var target = new Pkw(new FakeMotor());
 

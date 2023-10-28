@@ -4,11 +4,9 @@ package ex03_TestDoubles;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class MotorTests
-{
+public class MotorTests {
     @Test
-    public void AnlassenTest()
-    {
+    public void AnlassenTest() {
         // Arrange
         var target = new Motor();
 
@@ -20,8 +18,7 @@ public class MotorTests
     }
 
     @Test
-    public void AbstellenTest()
-    {
+    public void AbstellenTest() {
         // Arrange
         var target = new Motor();
 

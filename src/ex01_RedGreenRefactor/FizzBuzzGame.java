@@ -1,10 +1,8 @@
 package ex01_RedGreenRefactor;
 
-public class FizzBuzzGame
-{
-    public Object GetResponse(int number)
-    {
-        if (number  < 1 || number  > 100) throw new IllegalArgumentException("number");
+public class FizzBuzzGame {
+    public Object GetResponse(int number) {
+        if (number < 1 || number > 100) throw new IllegalArgumentException("number");
 
 
         if (number % 15 == 0) return "FizzBuzz";

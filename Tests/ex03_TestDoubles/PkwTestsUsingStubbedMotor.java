@@ -3,11 +3,9 @@ package ex03_TestDoubles;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class PkwTestsUsingStubbedMotor
-{
+public class PkwTestsUsingStubbedMotor {
     @Test
-    public void Fahren_erhoeht_Tachostand()
-    {
+    public void Fahren_erhoeht_Tachostand() {
         // Arrange
         var target = new Pkw(new StubbedMotor());
 

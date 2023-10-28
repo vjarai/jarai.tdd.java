@@ -4,33 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/Mocking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" afterDir="false" />
+    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/DirectionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/GridTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/MarsRoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/MarsRoverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/PositionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/MarsRover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/_ReadMe/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTestsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTestsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarai.tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jarai.tdd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/Markdown Cheat Sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/Markdown Cheat Sheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Aufgaben.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Zusammenfassung.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Zusammenfassung.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/_Aufgaben.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +83,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Tests/ex03_TestDoubles",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Tests/ex06_MarsRoverKata/UnitTests/UnitTests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,11 +98,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata\UnitTests\UnitTests" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\src\ex06_MarsRoverKata" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex03_TestDoubles" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\src\ex03_TestDoubles" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src\ex01_RedGreenRefactor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata\UnitTests\UnitTests" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src\ex02_OutsideInTDD" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\Tests\ex02_OutsideInTDD" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src" />
@@ -107,70 +121,78 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PkwTestsUsingMoqMockedMotor">
-    <configuration name="FizzBuzzGameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ex06_MarsRoverKata.UnitTests.UnitTests in jarai.tdd">
+    <configuration name="DirectionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jarai.tdd" />
-      <option name="PACKAGE_NAME" value="ex01" />
-      <option name="MAIN_CLASS_NAME" value="ex01_RedGreenRefactor.FizzBuzzGameTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.DirectionTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KontoTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTest.CalculateNextPositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jarai.tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex02_OutsideInTDD.*" />
+          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex02_OutsideInTDD" />
-      <option name="MAIN_CLASS_NAME" value="ex02_OutsideInTDD.KontoTests" />
+      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.MarsRoverTest" />
+      <option name="METHOD_NAME" value="CalculateNextPositionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jarai.tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.PositionTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionTests.OperatorPlusTest_overflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jarai.tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex03_TestDoubles.*" />
+          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex03_TestDoubles" />
-      <option name="MAIN_CLASS_NAME" value="ex03_TestDoubles.MotorTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.PositionTests" />
+      <option name="METHOD_NAME" value="OperatorPlusTest_overflow" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PkwTestsUsingMoqMockedMotor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ex06_MarsRoverKata.UnitTests.UnitTests in jarai.tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jarai.tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex03_TestDoubles.*" />
+          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex03_TestDoubles" />
-      <option name="MAIN_CLASS_NAME" value="ex03_TestDoubles.PkwTestsUsingMoqMockedMotor" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex03_TestDoubles in jarai.tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex03_TestDoubles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex03_TestDoubles" />
+      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PkwTestsUsingMoqMockedMotor" />
-        <item itemvalue="JUnit.ex03_TestDoubles in jarai.tdd" />
-        <item itemvalue="JUnit.MotorTests" />
-        <item itemvalue="JUnit.KontoTests" />
-        <item itemvalue="JUnit.FizzBuzzGameTests" />
+        <item itemvalue="JUnit.ex06_MarsRoverKata.UnitTests.UnitTests in jarai.tdd" />
+        <item itemvalue="JUnit.MarsRoverTest.CalculateNextPositionTest" />
+        <item itemvalue="JUnit.PositionTests" />
+        <item itemvalue="JUnit.PositionTests.OperatorPlusTest_overflow" />
+        <item itemvalue="JUnit.DirectionTests" />
       </list>
     </recent_temporary>
   </component>
@@ -210,10 +232,23 @@
       <workItem from="1698512297247" duration="41000" />
       <workItem from="1698512354605" duration="3536000" />
       <workItem from="1698516054005" duration="2861000" />
+      <workItem from="1698518957686" duration="2598000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1698519059162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698519059162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

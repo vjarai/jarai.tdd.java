@@ -1,20 +1,17 @@
 package ex02_OutsideInTDD;
+
 import java.util.Date;
 
-class Buchung
-{
-    public Buchung(double amount, Date date)
-    {
+class Buchung {
+    public double Amount;
+    public Date Date;
+
+    public Buchung(double amount, Date date) {
         Amount = amount;
         Date = date;
     }
 
-    public double Amount;
-
-    public Date Date ;
-
-    public  String ToString()
-    {
+    public String ToString() {
         return "{Date} {Amount}";
     }
 }

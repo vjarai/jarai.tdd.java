@@ -1,6 +1,5 @@
 package ex02_OutsideInTDD;
 
-public interface IKalenderService
-{
+public interface IKalenderService {
     java.util.Date ToDay();
 }
