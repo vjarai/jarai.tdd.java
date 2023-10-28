@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="" />
+    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/Mocking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTestsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTestsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarai.tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jarai.tdd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XOu9S9cpeI0y8HUpVH58KYRCUi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,12 +61,144 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Tests/ex03_TestDoubles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex03_TestDoubles" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\src\ex03_TestDoubles" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src\ex01_RedGreenRefactor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src\ex02_OutsideInTDD" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\Tests\ex02_OutsideInTDD" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ex01" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PkwTestsUsingMoqMockedMotor">
+    <configuration name="FizzBuzzGameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jarai.tdd" />
+      <option name="PACKAGE_NAME" value="ex01" />
+      <option name="MAIN_CLASS_NAME" value="ex01_RedGreenRefactor.FizzBuzzGameTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KontoTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jarai.tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex02_OutsideInTDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex02_OutsideInTDD" />
+      <option name="MAIN_CLASS_NAME" value="ex02_OutsideInTDD.KontoTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jarai.tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex03_TestDoubles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex03_TestDoubles" />
+      <option name="MAIN_CLASS_NAME" value="ex03_TestDoubles.MotorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PkwTestsUsingMoqMockedMotor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jarai.tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex03_TestDoubles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex03_TestDoubles" />
+      <option name="MAIN_CLASS_NAME" value="ex03_TestDoubles.PkwTestsUsingMoqMockedMotor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex03_TestDoubles in jarai.tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jarai.tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex03_TestDoubles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex03_TestDoubles" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="jarai.tdd.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="jarai.tdd.java" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PkwTestsUsingMoqMockedMotor" />
+        <item itemvalue="JUnit.ex03_TestDoubles in jarai.tdd" />
+        <item itemvalue="JUnit.MotorTests" />
+        <item itemvalue="JUnit.KontoTests" />
+        <item itemvalue="JUnit.FizzBuzzGameTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,7 +207,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698512296081</updated>
+      <workItem from="1698512297247" duration="41000" />
+      <workItem from="1698512354605" duration="3536000" />
+      <workItem from="1698516054005" duration="2861000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

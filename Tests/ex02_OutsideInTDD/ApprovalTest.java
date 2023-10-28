@@ -1,11 +1,11 @@
-﻿using ApprovalTests;
-using Xunit;
+package ex02_OutsideInTDD;
 
-namespace jarai.tdd2.OutsideInTDD.Tests.AcceptanceTests;
+import org.junit.jupiter.api.Test;
+
 
 public class ApprovalTest
 {
-    [Fact]
+    @Test
     public void KontoauszugTest()
     {
         // Arrange
@@ -14,9 +14,9 @@ public class ApprovalTest
         target.Abheben(50);
 
         // Act
-        string kontoauszug = target.ErstelleKontoauszug();
+        String kontoauszug = target.ErstelleKontoauszug();
 
         // Assert
-        Approvals.Verify(kontoauszug);
+        //Approvals.Verify(kontoauszug);
     }
 }

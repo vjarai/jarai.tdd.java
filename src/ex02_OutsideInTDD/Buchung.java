@@ -1,19 +1,20 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+package ex02_OutsideInTDD;
+import java.util.Date;
 
-internal class Buchung
+class Buchung
 {
-    public Buchung(double amount, DateTime date)
+    public Buchung(double amount, Date date)
     {
         Amount = amount;
         Date = date;
     }
 
-    public double Amount { get; }
+    public double Amount;
 
-    public DateTime Date { get; }
+    public Date Date ;
 
-    public override string ToString()
+    public  String ToString()
     {
-        return $"{Date} {Amount}";
+        return "{Date} {Amount}";
     }
 }

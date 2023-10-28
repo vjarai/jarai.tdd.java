@@ -1,10 +1,10 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+package ex02_OutsideInTDD;
 
 public interface IKonto
 {
-    public void Einzahlen(int einzuzahlenderBetrag);
+     void Einzahlen(int einzuzahlenderBetrag);
 
-    public void Abheben(int auszuzahlenderBetrag);
+     void Abheben(int auszuzahlenderBetrag);
 
-    public string ErstelleKontoauszug();
+     String ErstelleKontoauszug();
 }

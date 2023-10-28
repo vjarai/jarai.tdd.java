@@ -1,11 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+package ex02_OutsideInTDD;
 
-namespace jarai.tdd2.OutsideInTDD.Tests.UnitTests;
+import org.junit.jupiter.api.Test;
 
-[TestClass]
+
 public class KontoTests
 {
-    [TestMethod]
+     @Test
     public void EinzahlenTest()
     {
         // Arrange
@@ -15,7 +15,7 @@ public class KontoTests
         target.Einzahlen(100);
     }
 
-    [TestMethod]
+     @Test
     public void AbhebenTest()
     {
         // Arrange

@@ -1,9 +1,11 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+package ex02_OutsideInTDD;
 
-public class FakeKalenderService : IKalenderService
+import java.util.Date;
+
+public class FakeKalenderService implements IKalenderService
 {
-    public DateTime ToDay()
+    public Date ToDay()
     {
-        return new DateTime(2023, 1, 1);
+        return new Date(2023, 1, 1);
     }
 }

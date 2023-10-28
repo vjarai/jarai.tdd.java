@@ -1,35 +1,39 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+package ex02_OutsideInTDD;
 
-public class Konto : IKonto
+import java.util.ArrayList;
+
+public class Konto implements IKonto
 {
-    private readonly List<Buchung> _buchungen = new();
-    private readonly IKalenderService _kalenderService;
+    private ArrayList<Buchung> _buchungen = new ArrayList<Buchung>() ;
+
+    private  IKalenderService _kalenderService;
 
 
-    public Konto(IKalenderService? kalenderService = null)
+    public Konto(IKalenderService kalenderService)
     {
-        _kalenderService = kalenderService ?? new KalenderService();
+        _kalenderService = kalenderService;
     }
 
     public void Einzahlen(int einzuzahlenderBetrag)
     {
-        _buchungen.Add(new Buchung(einzuzahlenderBetrag, _kalenderService.ToDay()));
+        _buchungen.add(new Buchung(einzuzahlenderBetrag, _kalenderService.ToDay()));
     }
 
     public void Abheben(int auszuzahlenderBetrag)
     {
-        _buchungen.Add(new Buchung(-auszuzahlenderBetrag, _kalenderService.ToDay()));
+        _buchungen.add(new Buchung(-auszuzahlenderBetrag, _kalenderService.ToDay()));
     }
 
-    public string ErstelleKontoauszug()
+    public String ErstelleKontoauszug()
     {
         double saldo = 0;
         var result = "Datum         Betrag     Saldo\n";
 
-        foreach (var buchung in _buchungen)
+
+        for (Buchung buchung : _buchungen)
         {
             saldo += buchung.Amount;
-            result += $"{buchung.Date:d}  {buchung.Amount,8:F2}  {saldo,8:F2}\n";
+            result += "{buchung.Date:d}  {buchung.Amount,8:F2}  {saldo,8:F2}\n";
         }
 
         return result;

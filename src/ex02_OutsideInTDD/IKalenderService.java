@@ -1,6 +1,6 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+package ex02_OutsideInTDD;
 
 public interface IKalenderService
 {
-    DateTime ToDay();
+    java.util.Date ToDay();
 }

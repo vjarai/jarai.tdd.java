@@ -1,9 +1,11 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+package ex02_OutsideInTDD;
 
-internal class KalenderService : IKalenderService
+import java.util.Date;
+
+class KalenderService implements IKalenderService
 {
-    public DateTime ToDay()
+    public Date ToDay()
     {
-        return DateTime.Now;
+        return new Date();
     }
 }

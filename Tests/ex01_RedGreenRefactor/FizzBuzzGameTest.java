@@ -1,4 +1,4 @@
-package ex01;
+package ex01_RedGreenRefactor;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

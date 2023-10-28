@@ -1,4 +1,4 @@
-package ex01;
+package ex01_RedGreenRefactor;
 
 public class Main {
     public static void main(String[] args) {
