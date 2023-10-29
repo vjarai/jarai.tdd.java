@@ -1,4 +1,4 @@
-package ex06_MarsRoverKata.UnitTests.UnitTests;
+package ex06_MarsRoverKata.UnitTests;
 
 import ex06_MarsRoverKata.MarsRover;
 import ex06_MarsRoverKata.Position;

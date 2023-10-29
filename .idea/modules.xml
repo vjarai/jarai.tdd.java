@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/excercise6/MarsRoverKata.iml" filepath="$PROJECT_DIR$/excercise6/MarsRoverKata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise2/OutsideInTDD.iml" filepath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" filepath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise3/TestDoubles.iml" filepath="$PROJECT_DIR$/excercise3/TestDoubles.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarai.tdd.iml" filepath="$PROJECT_DIR$/jarai.tdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise1/src/main/main.iml" filepath="$PROJECT_DIR$/excercise1/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise2/src/main2/main2.iml" filepath="$PROJECT_DIR$/excercise2/src/main2/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise3/src/main3/main3.iml" filepath="$PROJECT_DIR$/excercise3/src/main3/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise6/src/main6/main6.iml" filepath="$PROJECT_DIR$/excercise6/src/main6/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise1/src/test/test.iml" filepath="$PROJECT_DIR$/excercise1/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise2/src/test2/test2.iml" filepath="$PROJECT_DIR$/excercise2/src/test2/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise3/src/test3/test3.iml" filepath="$PROJECT_DIR$/excercise3/src/test3/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise6/src/test6/test6.iml" filepath="$PROJECT_DIR$/excercise6/src/test6/test6.iml" />
     </modules>
   </component>
 </project>

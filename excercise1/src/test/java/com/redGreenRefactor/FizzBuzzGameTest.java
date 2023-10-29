@@ -1,4 +1,4 @@
-package ex01_RedGreenRefactor;
+package com.redGreenRefactor;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -8,8 +8,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.stream.Stream;
-
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 // https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
 
@@ -78,7 +76,7 @@ class FizzBuzzGameTests {
         var game = new FizzBuzzGame();
 
         // Act
-        var exception = assertThrows(IllegalArgumentException.class, () -> game.GetResponse(input));
+        var exception = Assertions.assertThrows(IllegalArgumentException.class, () -> game.GetResponse(input));
         //assertTrue(exception.getMessage().contains("test"));
     }
 

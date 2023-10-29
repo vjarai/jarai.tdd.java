@@ -1,4 +1,4 @@
-package ex06_MarsRoverKata.UnitTests.UnitTests;
+package ex06_MarsRoverKata.AcceptanceTests;
 
 import ex06_MarsRoverKata.Direction;
 import ex06_MarsRoverKata.Grid;

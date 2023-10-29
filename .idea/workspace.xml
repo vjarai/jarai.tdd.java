@@ -4,44 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/DirectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/GridTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/MarsRoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/MarsRoverTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/PositionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/MarsRover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex06_MarsRoverKata/_ReadMe/ReadMe.md" afterDir="false" />
+    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise1/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise1/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/main2/main2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/test2/test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise3/TestDoubles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise3/src/main3/main3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise3/src/test3/test3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise6/MarsRoverKata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise6/src/main6/main6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise6/src/test6/test6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/Markdown Cheat Sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/Markdown Cheat Sheet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Aufgaben.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Zusammenfassung.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Zusammenfassung.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/_Aufgaben.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex01_RedGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/test/java/com/redGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test2/java/ex02_OutsideInTDD/ApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/ApprovalTestsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test2/java/ex02_OutsideInTDD/ApprovalTestsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex02_OutsideInTDD/KontoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test2/java/ex02_OutsideInTDD/KontoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/MotorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/MotorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/DirectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/DirectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/GridTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/GridTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/MarsRoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/MarsRoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/AcceptanceTests/MarsRoverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ex06_MarsRoverKata/UnitTests/UnitTests/PositionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/PositionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarai.tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jarai.tdd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/java/com/redGreenRefactor/FizzBuzzGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/java/com/redGreenRefactor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/Markdown Cheat Sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/_ReadMe/Markdown Cheat Sheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/TestChecklist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/_ReadMe/TestChecklist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/_ReadMe/_Aufgaben.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/_Zusammenfassung.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/_ReadMe/_Zusammenfassung.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/_ReadMe/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01_RedGreenRefactor/_ReadMe/tdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/_ReadMe/tdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Buchung.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/Buchung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/FakeKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/FakeKalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/IKalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/IKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/KalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/KalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/AcceptanceTestLoops.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/_ReadMe/AcceptanceTestLoops.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/KontoauszugTest.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/_ReadMe/KontoauszugTest.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02_OutsideInTDD/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/_ReadMe/_Aufgaben.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Cabrio.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/Cabrio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/FakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/FakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/IMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/IMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/Pkw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/StubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/Mocking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/_ReadMe/Mocking.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_TestDoubles/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/_ReadMe/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex06_MarsRoverKata/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/MarsRover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex06_MarsRoverKata/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex06_MarsRoverKata/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/_ReadMe/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,32 +93,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Tests/ex06_MarsRoverKata/UnitTests/UnitTests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Tests/ex06_MarsRoverKata/UnitTests/UnitTests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata\UnitTests\UnitTests" />
@@ -105,10 +129,11 @@
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\src\ex03_TestDoubles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata\UnitTests\UnitTests" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src\ex02_OutsideInTDD" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\Tests\ex02_OutsideInTDD" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd\src" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\test6\java" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\main6\java" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise3\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -121,79 +146,50 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ex06_MarsRoverKata.UnitTests.UnitTests in jarai.tdd">
-    <configuration name="DirectionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.DirectionTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MarsRoverTest.CalculateNextPositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.MarsRoverTest" />
-      <option name="METHOD_NAME" value="CalculateNextPositionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.PositionTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositionTests.OperatorPlusTest_overflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests.PositionTests" />
-      <option name="METHOD_NAME" value="OperatorPlusTest_overflow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex06_MarsRoverKata.UnitTests.UnitTests in jarai.tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex06_MarsRoverKata.UnitTests.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex06_MarsRoverKata.UnitTests.UnitTests" />
+  <component name="RunManager" selected="JUnit.All in test6">
+    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzGameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redGreenRefactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.redGreenRefactor" />
+      <option name="MAIN_CLASS_NAME" value="com.redGreenRefactor.FizzBuzzGameTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ex06_MarsRoverKata.UnitTests.UnitTests in jarai.tdd" />
-        <item itemvalue="JUnit.MarsRoverTest.CalculateNextPositionTest" />
-        <item itemvalue="JUnit.PositionTests" />
-        <item itemvalue="JUnit.PositionTests.OperatorPlusTest_overflow" />
-        <item itemvalue="JUnit.DirectionTests" />
+        <item itemvalue="JUnit.All in test6" />
+        <item itemvalue="JUnit.All in test3" />
+        <item itemvalue="JUnit.All in test2" />
+        <item itemvalue="JUnit.All in test" />
+        <item itemvalue="JUnit.FizzBuzzGameTests" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +228,14 @@
       <workItem from="1698512297247" duration="41000" />
       <workItem from="1698512354605" duration="3536000" />
       <workItem from="1698516054005" duration="2861000" />
-      <workItem from="1698518957686" duration="2598000" />
+      <workItem from="1698518957686" duration="2710000" />
+      <workItem from="1698573108854" duration="63000" />
+      <workItem from="1698573218962" duration="54000" />
+      <workItem from="1698573361632" duration="268000" />
+      <workItem from="1698573776526" duration="1086000" />
+      <workItem from="1698574889868" duration="298000" />
+      <workItem from="1698575236507" duration="627000" />
+      <workItem from="1698575886817" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -241,14 +244,33 @@
       <option name="project" value="LOCAL" />
       <updated>1698519059162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="....">
+      <created>1698521649275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698521649275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="...." />
+    <option name="LAST_COMMIT_MESSAGE" value="...." />
   </component>
 </project>
