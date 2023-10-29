@@ -14,6 +14,8 @@
 
 ## Aufgabe
 
+- User story: <p> Ich als Konto Nutzer möchte einen Kontoauszug erstellen, damit ich alle meine Kontobewegungen nachvollziehen kann. 
+
 - Erstellen Sie einen roten Acceptance Test für die Klasse Konto, der folgenden Kontoauszug ausgibt:
 
 ```

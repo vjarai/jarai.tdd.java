@@ -36,6 +36,6 @@ public class Position {
 
 
     public String ToString() {
-        return "{_x}:{_y}";
+        return String.format("%d:%d",_x,_y);
     }
 }

@@ -34,7 +34,7 @@ public class Direction {
         _kompassDirection = kompassDirection;
     }
 
-    public String ToString() {
+    public String toString() {
 
         return _kompassDirection;
     }

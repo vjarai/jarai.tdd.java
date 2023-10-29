@@ -1,9 +1,9 @@
 package de.jarai.TestDoubles;
 
 
-/// <summary>
-///     "Fake" Implementierung von IMotor (z.B. zum Debuggen)
-/// </summary>
+/**
+*     "Fake" Implementierung von IMotor (z.B. zum Debuggen)
+*/
 public class FakeMotor implements IMotor {
     public void Anlassen() {
         System.out.println("Motor anlassen");

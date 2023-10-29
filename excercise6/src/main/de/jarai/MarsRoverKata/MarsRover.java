@@ -51,7 +51,7 @@ public class MarsRover {
                     //throw new Exception("Unknown command: {command}");
             }
 
-            result =  (obstacleDetected? "O": ":" ) + "{_currentPosition}:{_currentDirection}";
+            result =  (obstacleDetected? "O:": "" ) +  _currentPosition.ToString() + ":" +_currentDirection;
 
         }
 
@@ -62,4 +62,6 @@ public class MarsRover {
 
         return _currentPosition.Add( _currentDirection.NextPositionOffset);
     }
+
+
 }

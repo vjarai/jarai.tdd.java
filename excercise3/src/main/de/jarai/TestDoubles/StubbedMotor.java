@@ -1,8 +1,8 @@
 package de.jarai.TestDoubles;
 
-/// <summary>
-///     "Leere" Implementierung von IMotor (ignoriert alle Aktionen)
-/// </summary>
+/**
+*     "Leere" Implementierung von IMotor (ignoriert alle Aktionen)
+*/
 public class StubbedMotor implements IMotor {
     public void Anlassen() {
     }

@@ -80,9 +80,11 @@ class FizzBuzzGameTests {
         //assertTrue(exception.getMessage().contains("test"));
     }
 
-    /// <summary>
-    ///     Parametrisierter Test: Deckt alle einfachem Testfälle in einem einzigen Test ab
-    /// </summary>
+    /**
+     * Parametrisierter Test: Deckt alle einfachem Testfälle in einem einzigen Test ab
+     * @param input
+     * @param expected
+     */
     @ParameterizedTest
     @MethodSource("getInputDataForParameterizedTest")
     public void GetResponse(int input, Object expected) {
