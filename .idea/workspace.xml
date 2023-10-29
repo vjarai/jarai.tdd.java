@@ -5,12 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/approvaltests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/_ReadMe/UML.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Relationen/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Relationen/Cabrio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Relationen/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/FlyingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/Ostrich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/Robin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovIgnorant/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovIgnorant/Ostrich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovIgnorant/Robin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/IArithmeticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/IArithmeticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/FakeKalenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/IKalenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/KalenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTest.KontoauszugTest.approved.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise2/src/test/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/src/main/java/com/redGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/java/ex01_redGreenRefactor/FizzBuzzGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/src/main/java/com/redGreenRefactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/java/ex01_redGreenRefactor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/src/test/java/com/redGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/test/java/ex01_redGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/src/main/java/ex01_redGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/de/jarai/RedGreenRefactor/FizzBuzzGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/src/main/java/ex01_redGreenRefactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/de/jarai/RedGreenRefactor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/src/test/java/ex01_redGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/test/de/jarai/RedGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/Buchung.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/Buchung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/FakeKalenderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/IKalenderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/IKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/KalenderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/java/ex02_OutsideInTDD/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main2/main2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/Refresher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test2/java/ex02_OutsideInTDD/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test2/java/ex02_OutsideInTDD/ApprovalTestsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTestsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test2/java/ex02_OutsideInTDD/KontoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/KontoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test2/test2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/TestDoubles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/TestDoubles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/Cabrio.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/Cabrio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/FakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/FakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/IMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/IMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/Pkw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/java/ex03_TestDoubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/StubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main3/main3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/main3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/MotorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/MotorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test3/java/ex03_TestDoubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test3/test3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/test3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/MarsRoverKata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/MarsRoverKata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/MarsRover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main6/java/ex06_MarsRoverKata/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main6/main6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/main6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/AcceptanceTests/MarsRoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/AcceptanceTests/MarsRoverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/DirectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/DirectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/GridTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/GridTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/MarsRoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test6/java/ex06_MarsRoverKata/UnitTests/PositionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/PositionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test6/test6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/test6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarai.tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jarai.tdd.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +91,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,17 +102,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2XOu9S9cpeI0y8HUpVH58KYRCUi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -55,8 +127,9 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise2/src/main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,18 +144,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src\SolidConform\Inheritance" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\_ReadMe" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata\UnitTests\UnitTests" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\src\ex06_MarsRoverKata" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex03_TestDoubles" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\src\ex03_TestDoubles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src\main" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\_ReadMe" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\test6\java" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\main6\java" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise3\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -95,56 +168,43 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in jarai.tdd">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex01_redGreenRefactor.Main" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex01_redGreenRefactor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in jarai.tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
+  <component name="RunManager" selected="JUnit.All in MarsRoverKata (2)">
+    <configuration name="All in MarsRoverKata (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverKata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+    <configuration name="All in MarsRoverKata (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverKata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test6" />
+    <configuration name="All in OutsideInTDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OutsideInTDD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzGameTests.GetResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex01_redGreenRefactor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex01_redGreenRefactor" />
-      <option name="MAIN_CLASS_NAME" value="ex01_redGreenRefactor.FizzBuzzGameTests" />
-      <option name="METHOD_NAME" value="GetResponse(int,java.lang.Object)" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="All in ReadGreenRefactor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReadGreenRefactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in TestDoubles (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDoubles" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in jarai.tdd" />
-        <item itemvalue="JUnit.All in test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FizzBuzzGameTests.GetResponse" />
-        <item itemvalue="JUnit.All in test6" />
+        <item itemvalue="JUnit.All in MarsRoverKata (2)" />
+        <item itemvalue="JUnit.All in TestDoubles (1)" />
+        <item itemvalue="JUnit.All in OutsideInTDD" />
+        <item itemvalue="JUnit.All in ReadGreenRefactor" />
+        <item itemvalue="JUnit.All in MarsRoverKata (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +252,13 @@
       <workItem from="1698575236507" duration="627000" />
       <workItem from="1698575886817" duration="588000" />
       <workItem from="1698578217574" duration="667000" />
-      <workItem from="1698579536309" duration="340000" />
+      <workItem from="1698579536309" duration="2772000" />
+      <workItem from="1698582727232" duration="217000" />
+      <workItem from="1698596452561" duration="3312000" />
+      <workItem from="1698599799874" duration="378000" />
+      <workItem from="1698600214501" duration="10000" />
+      <workItem from="1698600348863" duration="657000" />
+      <workItem from="1698601017068" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -208,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698521649275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="....">
+      <option name="closed" value="true" />
+      <created>1698579921939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698579921939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,8 +300,20 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="." />
     <MESSAGE value="...." />
     <option name="LAST_COMMIT_MESSAGE" value="...." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
