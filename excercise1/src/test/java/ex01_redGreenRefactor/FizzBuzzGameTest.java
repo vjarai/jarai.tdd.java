@@ -1,4 +1,4 @@
-package com.redGreenRefactor;
+package ex01_redGreenRefactor;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 // https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
 
 class FizzBuzzGameTests {
-    private static Stream<Arguments> provideStringsForIsBlank() {
+    private static Stream<Arguments> getInputDataForParameterizedTest() {
         return Stream.of(
                 Arguments.of(1, 1),
                 Arguments.of(3, "Fizz"),
@@ -84,7 +84,7 @@ class FizzBuzzGameTests {
     ///     Parametrisierter Test: Deckt alle einfachem Testfälle in einem einzigen Test ab
     /// </summary>
     @ParameterizedTest
-    @MethodSource("provideStringsForIsBlank")
+    @MethodSource("getInputDataForParameterizedTest")
     public void GetResponse(int input, Object expected) {
         // Arrange
         var game = new FizzBuzzGame();
