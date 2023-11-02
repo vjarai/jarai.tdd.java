@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/excercise2/OutsideInTDD.iml" filepath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" filepath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" />
       <module fileurl="file://$PROJECT_DIR$/excercise0/Refresher.iml" filepath="$PROJECT_DIR$/excercise0/Refresher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise4/StatePattern.iml" filepath="$PROJECT_DIR$/excercise4/StatePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/excercise3/TestDoubles.iml" filepath="$PROJECT_DIR$/excercise3/TestDoubles.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jarai.tdd.iml" filepath="$PROJECT_DIR$/jarai.tdd.iml" />
     </modules>
   </component>
 </project>

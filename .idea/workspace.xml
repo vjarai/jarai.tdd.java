@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/StatePattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution1/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution1/exceptions/InvalidPhoneOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/exceptions/InvalidPhoneOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/ConnectedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/HungUpState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/PhoneState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/PickedUpState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/state/solution1/PhoneTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/state/solution2/PhoneTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/src/main/AppleCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/src/main/ApplePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/src/main/UsbCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/src/main/UsbToAppleChagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/UML.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/_ReadMe/UML.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/src/main/de/jarai/RedGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/de/jarai/RedGreenRefactor/FizzBuzzGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/src/test/de/jarai/RedGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/test/de/jarai/RedGreenRefactor/FizzBuzzGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/_ReadMe/_Aufgaben.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/IKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/FakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/FakeMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/StubbedMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/MarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarai.tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jarai.tdd.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +77,7 @@
     "create.test.in.the.same.root": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +88,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,8 +121,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in MarsRoverKata (2)">
-    <configuration name="All in MarsRoverKata (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in StatePattern">
+    <configuration name="All in MarsRoverKata (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverKata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -114,42 +130,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in OutsideInTDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OutsideInTDD" />
+    <configuration name="All in StatePattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatePattern" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in TestDoubles (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDoubles" />
+    <configuration name="Whole project (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in jarai.tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jarai.tdd" />
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTests.ExecuteCommands_M_should_0_1_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRoverKata" />
+    <configuration name="org.example.state_pattern in StatePattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatePattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.jarai.MarsRoverKata.AcceptanceTests.*" />
+          <option name="PATTERN" value="org.example.state_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.MarsRoverKata.AcceptanceTests" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.MarsRoverKata.AcceptanceTests.MarsRoverTests" />
-      <option name="METHOD_NAME" value="ExecuteCommands_M_should_0_1_N" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.state_pattern" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in MarsRoverKata (2)" />
-        <item itemvalue="JUnit.MarsRoverTests.ExecuteCommands_M_should_0_1_N" />
-        <item itemvalue="JUnit.All in jarai.tdd" />
-        <item itemvalue="JUnit.All in TestDoubles (1)" />
-        <item itemvalue="JUnit.All in OutsideInTDD" />
+        <item itemvalue="JUnit.All in StatePattern" />
+        <item itemvalue="JUnit.org.example.state_pattern in StatePattern" />
+        <item itemvalue="JUnit.Whole project (1)" />
+        <item itemvalue="JUnit.Whole project" />
+        <item itemvalue="JUnit.All in MarsRoverKata (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +222,17 @@
       <workItem from="1698600214501" duration="10000" />
       <workItem from="1698600348863" duration="657000" />
       <workItem from="1698601017068" duration="252000" />
-      <workItem from="1698601282039" duration="1597000" />
+      <workItem from="1698601282039" duration="2781000" />
+      <workItem from="1698604092828" duration="155000" />
+      <workItem from="1698604269506" duration="44000" />
+      <workItem from="1698605034108" duration="407000" />
+      <workItem from="1698605464755" duration="152000" />
+      <workItem from="1698650338075" duration="2084000" />
+      <workItem from="1698738042299" duration="5792000" />
+      <workItem from="1698761676888" duration="747000" />
+      <workItem from="1698943534016" duration="568000" />
+      <workItem from="1698944549485" duration="263000" />
+      <workItem from="1698944943684" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -236,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698601432860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="....">
+      <option name="closed" value="true" />
+      <created>1698603079967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698603079967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
