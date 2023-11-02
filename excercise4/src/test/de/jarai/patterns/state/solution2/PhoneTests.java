@@ -1,6 +1,6 @@
-package de.jarai.pattern_state.solution1;
+package de.jarai.patterns.state.solution2;
 
-import de.jarai.pattern_state.solution1.exceptions.InvalidPhoneOperationException;
+import de.jarai.patterns.state.solution2.exceptions.InvalidPhoneOperationException;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
@@ -75,8 +75,8 @@ public class PhoneTests {
 
     @Test
     @Disabled
-    // at  this point we noticed, that the solution given by pure tdd and extremely dumb
-    // kiss is too complex.
+        // at  this point we noticed, that the solution given by pure tdd and extremely dumb
+        // kiss is too complex.
     void givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException() {
         // given / arrange
         final var sut = new Phone();

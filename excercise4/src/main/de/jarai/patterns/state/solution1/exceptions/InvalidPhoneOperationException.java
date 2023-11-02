@@ -1,4 +1,4 @@
-package de.jarai.pattern_state.solution1.exceptions;
+package de.jarai.patterns.state.solution1.exceptions;
 
 public class InvalidPhoneOperationException extends RuntimeException {
 }

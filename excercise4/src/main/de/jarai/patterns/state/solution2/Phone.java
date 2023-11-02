@@ -1,8 +1,8 @@
-package de.jarai.pattern_state.solution2;
+package de.jarai.patterns.state.solution2;
 
 
-import de.jarai.pattern_state.solution2.states.HungUpState;
-import de.jarai.pattern_state.solution2.states.PhoneState;
+import de.jarai.patterns.state.solution2.states.HungUpState;
+import de.jarai.patterns.state.solution2.states.PhoneState;
 
 public class Phone {
 

@@ -1,7 +1,7 @@
-package de.jarai.pattern_state.solution1;
+package de.jarai.patterns.state.solution1;
 
 
-import de.jarai.pattern_state.solution1.exceptions.InvalidPhoneOperationException;
+import de.jarai.patterns.state.solution1.exceptions.InvalidPhoneOperationException;
 
 public class Phone {
 

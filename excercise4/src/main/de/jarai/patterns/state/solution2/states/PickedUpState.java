@@ -1,4 +1,4 @@
-package de.jarai.pattern_state.solution2.states;
+package de.jarai.patterns.state.solution2.states;
 
 public class PickedUpState extends PhoneState {
     @Override
