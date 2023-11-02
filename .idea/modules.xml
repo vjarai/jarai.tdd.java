@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/excercise6/MarsRoverKata.iml" filepath="$PROJECT_DIR$/excercise6/MarsRoverKata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/excercise2/OutsideInTDD.iml" filepath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" />
-      <module fileurl="file://$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" filepath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/excercise0/Refresher.iml" filepath="$PROJECT_DIR$/excercise0/Refresher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/excercise4/StatePattern.iml" filepath="$PROJECT_DIR$/excercise4/StatePattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/excercise3/TestDoubles.iml" filepath="$PROJECT_DIR$/excercise3/TestDoubles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" filepath="$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise2/tdd.outside_in.iml" filepath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" filepath="$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise4/tdd.pattern_state.iml" filepath="$PROJECT_DIR$/excercise4/tdd.pattern_state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise1/tdd.red_green_refactor.iml" filepath="$PROJECT_DIR$/excercise1/tdd.red_green_refactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise0/tdd.solid.iml" filepath="$PROJECT_DIR$/excercise0/tdd.solid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise3/tdd.testdoubles.iml" filepath="$PROJECT_DIR$/excercise3/tdd.testdoubles.iml" />
     </modules>
   </component>
 </project>

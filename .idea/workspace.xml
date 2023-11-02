@@ -5,27 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/StatePattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution1/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution1/exceptions/InvalidPhoneOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/exceptions/InvalidPhoneOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/ConnectedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/HungUpState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/PhoneState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/PickedUpState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/state/solution1/PhoneTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/state/solution2/PhoneTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise5/src/main/AppleCharger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise5/src/main/ApplePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise5/src/main/UsbCharger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise5/src/main/UsbToAppleChagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise4/tdd.pattern_state.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/src/main/tdd.patterns.adapter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/src/test/de/jarai/patterns/adapter/ApplePhoneTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarai.tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jarai.tdd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/Refresher.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Relationen/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Relationen/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Relationen/Cabrio.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Relationen/Cabrio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Relationen/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Relationen/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovConform/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/FlyingBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovConform/FlyingBird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovConform/Ostrich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovConform/Robin.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovConform/Robin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovIgnorant/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovIgnorant/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovIgnorant/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovIgnorant/Ostrich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/LiskovIgnorant/Robin.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/LiskovIgnorant/Robin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseConform/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseConform/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/IArithmeticOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseConform/IArithmeticOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseConform/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseConform/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseConform/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseIgnorant/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseIgnorant/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/IArithmeticOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseIgnorant/IArithmeticOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/src/main/de/jarai/Refresher/Solid/OpenCloseIgnorant/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/src/main/de/jarai/refresher/Solid/OpenCloseIgnorant/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/ReadGreenRefactor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/tdd.red_green_refactor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/src/main/de/jarai/RedGreenRefactor/FizzBuzzGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/de/jarai/red_green_refactor/FizzBuzzGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/src/main/de/jarai/RedGreenRefactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/main/de/jarai/red_green_refactor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/src/test/de/jarai/RedGreenRefactor/FizzBuzzGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/src/test/de/jarai/red_green_refactor/FizzBuzzGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/OutsideInTDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/Buchung.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/Buchung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/FakeKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/FakeKalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/IKalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/IKalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/IKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/IKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/KalenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/KalenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/OutsideInTDD/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTest.KontoauszugTest.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTest.KontoauszugTest.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTestsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTestsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/KontoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/KontoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/TestDoubles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/tdd.testdoubles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/Cabrio.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Cabrio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/FakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/FakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/IMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/IMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Pkw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/TestDoubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/StubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/MotorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/MotorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingFakeMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingMoqMockedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/TestDoubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingStubbedMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/StatePattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution1/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution1/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution1/exceptions/InvalidPhoneOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution1/exceptions/InvalidPhoneOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution2/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/exceptions/InvalidPhoneOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution2/exceptions/InvalidPhoneOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/ConnectedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution2/states/ConnectedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/HungUpState.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution2/states/HungUpState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/PhoneState.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution2/states/PhoneState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/state/solution2/states/PickedUpState.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/pattern_state/solution2/states/PickedUpState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/state/solution1/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/pattern_state/solution1/PhoneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/state/solution2/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/pattern_state/solution2/PhoneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/src/main/AppleCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/src/main/de/jarai/patterns/adapter/AppleCharger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/src/main/ApplePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/src/main/de/jarai/patterns/adapter/ApplePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/src/main/UsbCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/src/main/de/jarai/patterns/adapter/UsbCharger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/src/main/UsbToAppleChagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/src/main/de/jarai/patterns/adapter/UsbToAppleChagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/MarsRoverKata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +124,7 @@
     "create.test.in.the.same.root": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise4",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,11 +151,11 @@
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise5\src" />
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise4" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src\main" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\_ReadMe" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\test6\java" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\main6\java" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -121,9 +168,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in StatePattern">
-    <configuration name="All in MarsRoverKata (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRoverKata" />
+  <component name="RunManager" selected="JUnit.Whole project (1)">
+    <configuration name="All in PatternAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.exercise5.adapter" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -131,7 +178,7 @@
       </method>
     </configuration>
     <configuration name="All in StatePattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StatePattern" />
+      <module name="tdd.exercise4.state" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -139,6 +186,16 @@
       </method>
     </configuration>
     <configuration name="Whole project (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="TEST_SEARCH_SCOPE">
@@ -158,20 +215,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.state_pattern in StatePattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StatePattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.state_pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.state_pattern" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="jarai.tdd.java" />
       <method v="2">
@@ -187,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in StatePattern" />
-        <item itemvalue="JUnit.org.example.state_pattern in StatePattern" />
         <item itemvalue="JUnit.Whole project (1)" />
         <item itemvalue="JUnit.Whole project" />
-        <item itemvalue="JUnit.All in MarsRoverKata (1)" />
+        <item itemvalue="JUnit.Whole project (2)" />
+        <item itemvalue="JUnit.All in PatternAdapter" />
+        <item itemvalue="JUnit.All in StatePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +275,8 @@
       <workItem from="1698761676888" duration="747000" />
       <workItem from="1698943534016" duration="568000" />
       <workItem from="1698944549485" duration="263000" />
-      <workItem from="1698944943684" duration="1163000" />
+      <workItem from="1698944943684" duration="2935000" />
+      <workItem from="1698947964613" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -272,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698603079967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="....">
+      <option name="closed" value="true" />
+      <created>1698946140946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698946140946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +351,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/excercise2/src/test/de/jarai/OutsideInTDD/ApprovalTest.java</url>
+          <url>file://$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTest.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
