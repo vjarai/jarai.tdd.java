@@ -1,4 +1,4 @@
-package org.example.rover;
+package de.jarai.rover;
 
 public record Position(int stepsEast, int stepsNorth) {
 

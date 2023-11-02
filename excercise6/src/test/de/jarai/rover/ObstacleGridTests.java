@@ -1,9 +1,7 @@
-package org.example.rover;
+package de.jarai.rover;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ObstacleGridTests {
 
@@ -18,7 +16,7 @@ public class ObstacleGridTests {
         final var actual = sut.hasObstacleAt(obstaclePosition);
 
         // assert
-        assertTrue(actual);
+        Assertions.assertTrue(actual);
     }
 
     @Test
@@ -33,7 +31,7 @@ public class ObstacleGridTests {
         final var actual = sut.hasObstacleAt(checkedPosition);
 
         // assert
-        assertFalse(actual);
+        Assertions.assertFalse(actual);
     }
 
 }

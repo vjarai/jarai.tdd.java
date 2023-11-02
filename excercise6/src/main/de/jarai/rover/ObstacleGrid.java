@@ -1,4 +1,4 @@
-package org.example.rover;
+package de.jarai.rover;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/ICalendarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/InvalidAccountOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/AccountTest.whenPrintStatement_GivenADepositAndAWithdraw_ThenPrintAStatement.approved.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/org/example/rover/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/org/example/rover/MarsRover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/org/example/rover/ObstacleGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/org/example/rover/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/test/org/example/rover/DirectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/test/org/example/rover/MarsRoverTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/test/org/example/rover/ObstacleGridTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/test/org/example/rover/PositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/Buchung.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/FakeKalenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/IKalenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/IKonto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/KalenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/main/de/jarai/outside_in/Konto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTest.KontoauszugTest.approved.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/ApprovalTestsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/src/test/de/jarai/outside_in/KontoTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Direction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Grid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/MarsRover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/MarsRoverKata/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/AcceptanceTests/MarsRoverTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/DirectionTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/GridTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/MarsRoverTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/MarsRoverKata/UnitTests/PositionTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="...." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +99,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in tdd.marsrover_kata (2)">
+  <component name="RunManager" selected="JUnit.All in tdd.marsrover_kata (3)">
     <configuration name="All in tdd.marsrover_kata (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.marsrover_kata" />
       <option name="PACKAGE_NAME" value="" />
@@ -153,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in tdd.marsrover_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in tdd.marsrover_kata (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.marsrover_kata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -161,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in tdd.outside_in (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.outside_in" />
+    <configuration name="All in tdd.marsrover_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.marsrover_kata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -192,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd.marsrover_kata (3)" />
         <item itemvalue="JUnit.All in tdd.marsrover_kata (2)" />
         <item itemvalue="JUnit.All in tdd.marsrover_kata (1)" />
         <item itemvalue="JUnit.All in tdd.marsrover_kata" />
         <item itemvalue="JUnit.All in tdd.outside_in (2)" />
-        <item itemvalue="JUnit.All in tdd.outside_in (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +205,7 @@
       <workItem from="1698948814011" duration="236000" />
       <workItem from="1698949169329" duration="736000" />
       <workItem from="1698950008516" duration="225000" />
-      <workItem from="1698950345515" duration="189000" />
+      <workItem from="1698950345515" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -306,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698949030443</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="....">
+      <option name="closed" value="true" />
+      <created>1698950658888</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698950658888</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

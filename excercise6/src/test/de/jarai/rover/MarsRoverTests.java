@@ -1,4 +1,4 @@
-package org.example.rover;
+package de.jarai.rover;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
