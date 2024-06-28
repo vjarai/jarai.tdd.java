@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
     public class DirectionTests
     {
         @Test
-        public void Given_NorthDirection_when_TurnLeft_then_WestDirection()
+        public void Given_NorthDirection_then_TurnLeft_then_WestDirection()
         {
             // Arrange
             var sut = NorthDirection.Instance;
@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         }
 
         @Test
-        public void Given_NorthDirection_when_TurnRight_then_EastDirection()
+        public void Given_NorthDirection_then_TurnRight_then_EastDirection()
         {
             // Arrange
             var sut = NorthDirection.Instance;
@@ -35,7 +35,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
         @Test
-        public void Given_EastDirection_when_TurnLeft_then_NorthDirection()
+        public void Given_EastDirection_then_TurnLeft_returns_NorthDirection()
         {
             // Arrange
             var sut = EastDirection.Instance;
@@ -48,7 +48,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         }
 
         @Test
-        public void Given_EastDirection_when_TurnRight_then_SouthDirection()
+        public void Given_EastDirection_then_TurnRight_returns_SouthDirection()
         {
             // Arrange
             var sut = EastDirection.Instance;
@@ -62,7 +62,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
         @Test
-        public void Given_WestDirection_when_TurnLeft_then_SouthDirection()
+        public void Given_WestDirection_then_TurnLeft_returns_SouthDirection()
         {
             // Arrange
             var sut = WestDirection.Instance;
@@ -75,7 +75,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         }
 
         @Test
-        public void Given_WestDirection_when_TurnRight_then_NorthDirection()
+        public void Given_WestDirection_then_TurnRight_returns_NorthDirection()
         {
             // Arrange
             var sut = WestDirection.Instance;
@@ -89,7 +89,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
         @Test
-        public void Given_SouthDirection_when_TurnLeft_then_EastDirection()
+        public void Given_SouthDirection_then_TurnLeft_returns_EastDirection()
         {
             // Arrange
             var sut = SouthDirection.Instance;
@@ -102,7 +102,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         }
 
         @Test
-        public void Given_SouthDirection_when_TurnRight_then_WestDirection()
+        public void Given_SouthDirection_then_TurnRight_returns_WestDirection()
         {
             // Arrange
             var sut = SouthDirection.Instance;

@@ -13,7 +13,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 public class MarsRoverTests {
 
     @Test
-    void givenMarsRoverAt00_WithMAsInput_ThenMovesOneFieldNorth() {
+    void given_new_MarsRover_when_M_returns_0_1_N() {
         // arrange
         final var sut = new MarsRover();
 
@@ -26,7 +26,7 @@ public class MarsRoverTests {
 
     @MethodSource
     @ParameterizedTest
-    void givenMarsRoverAt00_WithLAsInput_ThenTurnsLeft(
+    void given_new_MarsRover_with_direction_when_L_rotates_left(
             Direction direction,
             String expected
     ) {
@@ -40,7 +40,7 @@ public class MarsRoverTests {
         assertEquals(expected, actual);
     }
 
-    private static Stream<Arguments> givenMarsRoverAt00_WithLAsInput_ThenTurnsLeft() {
+    private static Stream<Arguments> given_new_MarsRover_with_direction_when_L_rotates_left() {
         return Stream.of(
                 arguments(NorthDirection.Instance, "0:0:W"),
                 arguments(EastDirection.Instance, "0:0:N"),
@@ -51,7 +51,7 @@ public class MarsRoverTests {
 
     @MethodSource
     @ParameterizedTest
-    void givenMarsRoverAt00_WithRAsInput_ThenTurnsRight(
+    void given_new_MarsRover_with_direction_when_R_rotates_right(
             Direction direction,
             String expected
     ) {
@@ -65,7 +65,7 @@ public class MarsRoverTests {
         assertEquals(expected, actual);
     }
 
-    private static Stream<Arguments> givenMarsRoverAt00_WithRAsInput_ThenTurnsRight() {
+    private static Stream<Arguments> given_new_MarsRover_with_direction_when_R_rotates_right() {
         return Stream.of(
                 arguments(NorthDirection.Instance, "0:0:E"),
                 arguments(EastDirection.Instance, "0:0:S"),
@@ -75,7 +75,7 @@ public class MarsRoverTests {
     }
 
     @Test
-    void givenMarsRoverAt00_whenObstacleAt01AndMovesTo01_thenHoldsBeforeObstacle() {
+    void given_new_MarsRover_with_Obstacle_at_01_when_M_stops_before_obstacle() {
         // arrange
         final var grid = new ObstacleGrid();
         grid.addObstacle(new Position(0, 1));

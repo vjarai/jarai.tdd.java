@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/excercise6/_ReadMe/classDiagram.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/AcceptanceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/AcceptanceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/DirectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/DirectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/MarsRoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/MarsRoverTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,10 @@
     "JUnit.AcceptanceTests.ExecuteCommands_MMMM_with_Obstacle_0_3_should_O_0_2_N.executor": "Run",
     "JUnit.AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N.executor": "Debug",
     "JUnit.AcceptanceTests.executor": "Run",
+    "JUnit.All in tdd.marsrover_kata.executor": "Run",
     "JUnit.DirectionTests.executor": "Run",
+    "JUnit.MarsRoverTests.executor": "Run",
+    "JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left.executor": "Run",
     "JUnit.ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue.executor": "Run",
     "JUnit.de.jarai.rover in tdd.marsrover_kata.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -88,7 +94,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -126,7 +132,7 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.de.jarai.rover in tdd.marsrover_kata">
+  <component name="RunManager" selected="JUnit.All in tdd.marsrover_kata">
     <configuration name="AcceptanceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.marsrover_kata" />
       <extension name="coverage">
@@ -142,23 +148,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AcceptanceTests.ExecuteCommands_MMMMMMMMMM_should_0_0_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in tdd.marsrover_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.marsrover_kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.jarai.rover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.rover" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.AcceptanceTests" />
-      <option name="METHOD_NAME" value="ExecuteCommands_MMMMMMMMMM_should_0_0_N" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.marsrover_kata" />
       <extension name="coverage">
         <pattern>
@@ -167,14 +165,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="de.jarai.rover" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.AcceptanceTests" />
-      <option name="METHOD_NAME" value="ExecuteCommands_MMRMMLM_should_2_3_N" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.MarsRoverTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTests.given_new_MarsRover_when_L_turns_Left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.marsrover_kata" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +180,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="de.jarai.rover" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.ObstacleGridTests" />
-      <option name="METHOD_NAME" value="givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.MarsRoverTests" />
+      <option name="METHOD_NAME" value="given_new_MarsRover_when_L_turns_Left(de.jarai.rover.Direction,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd.marsrover_kata" />
+        <item itemvalue="JUnit.MarsRoverTests" />
+        <item itemvalue="JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left" />
         <item itemvalue="JUnit.de.jarai.rover in tdd.marsrover_kata" />
         <item itemvalue="JUnit.AcceptanceTests" />
-        <item itemvalue="JUnit.AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N" />
-        <item itemvalue="JUnit.AcceptanceTests.ExecuteCommands_MMMMMMMMMM_should_0_0_N" />
-        <item itemvalue="JUnit.ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +281,7 @@
       <workItem from="1701680766853" duration="12000" />
       <workItem from="1701761730824" duration="462000" />
       <workItem from="1719561918970" duration="3932000" />
-      <workItem from="1719565913685" duration="635000" />
+      <workItem from="1719565913685" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -372,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719565765569</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="....">
+      <option name="closed" value="true" />
+      <created>1719566585857</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719566585857</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,5 +399,10 @@
     <MESSAGE value="." />
     <MESSAGE value="...." />
     <option name="LAST_COMMIT_MESSAGE" value="...." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jarai_tdd_java$MarsRoverTests.ic" NAME="MarsRoverTests Coverage Results" MODIFIED="1719567234873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>de.jarai.rover.*</FILTER>
+    </SUITE>
   </component>
 </project>

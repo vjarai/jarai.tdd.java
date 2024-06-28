@@ -4,7 +4,6 @@ public class MarsRover {
 
     private Position currentPosition = new Position(0,0);
     private Direction currentDirection = NorthDirection.Instance;
-
     private ObstacleGrid obstacles = new ObstacleGrid();
     private boolean hasObstacle;
 
@@ -27,13 +26,17 @@ public class MarsRover {
                 case 'M':
                     moveForward();
                     break;
+
                 case 'L':
                     turnLeft();
                     break;
+
                 case 'R':
                     turnRight() ;
                     break;
+
                 default:
+                    throw new IllegalArgumentException("Invalid command: " + c);
             }
         }
         return (hasObstacle ? "O:": "") + String.format("%s:%s", currentPosition.toString(), currentDirection.toString());
@@ -47,13 +50,11 @@ public class MarsRover {
         }
     }
 
-    private Direction turnRight() {
+    private void turnRight() {
       currentDirection = currentDirection.turnRight();
-      return currentDirection;
     }
 
-    private Direction turnLeft() {
+    private void turnLeft() {
         currentDirection = currentDirection.turnLeft();
-        return currentDirection;
     }
 }

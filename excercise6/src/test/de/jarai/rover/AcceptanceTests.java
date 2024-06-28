@@ -9,7 +9,7 @@ public class AcceptanceTests {
 
 
   @Test
-  public void ExecuteCommands_M_should_0_1_N()
+  public void Given_new_MarsRover_when_ExecuteCommands_M_returns_0_1_N()
         {
             // Arrange
             var target = new MarsRover();
@@ -24,7 +24,7 @@ public class AcceptanceTests {
 
 
     @Test
-        public void ExecuteCommands_MMMMMMMMMM_should_0_0_N()
+        public void Given_new_MarsRover_when_ExecuteCommands_MMMMMMMMMM_returns_0_0_N()
         {
             // Arrange
             var target = new MarsRover();
@@ -37,7 +37,7 @@ public class AcceptanceTests {
         }
 
     @Test
-        public void ExecuteCommands_MMRMMLM_should_2_3_N()
+        public void Given_new_MarsRover_when_ExecuteCommands_MMRMMLM_returns_2_3_N()
         {
             // Arrange
             var target = new MarsRover();
@@ -50,7 +50,7 @@ public class AcceptanceTests {
         }
 
     @Test
-        public void ExecuteCommands_MMMM_with_Obstacle_0_3_should_O_0_2_N()
+        public void Given_new_MarsRover_with_Obstacle_at_0_3_when_ExecuteCommands_MMMM_returns_O_0_2_N()
         {
             // Arrange
             var grid = new ObstacleGrid();
