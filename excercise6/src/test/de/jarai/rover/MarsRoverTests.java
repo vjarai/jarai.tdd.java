@@ -18,7 +18,7 @@ public class MarsRoverTests {
         final var sut = new MarsRover();
 
         // act
-        final var actual = sut.move("M");
+        final var actual = sut.executeCommands("M");
 
         // assert
         assertEquals("0:1:N", actual);
@@ -34,7 +34,7 @@ public class MarsRoverTests {
         final var sut = new MarsRover(direction);
 
         // act
-        final var actual = sut.move("L");
+        final var actual = sut.executeCommands("L");
 
         // assert
         assertEquals(expected, actual);
@@ -42,10 +42,10 @@ public class MarsRoverTests {
 
     private static Stream<Arguments> givenMarsRoverAt00_WithLAsInput_ThenTurnsLeft() {
         return Stream.of(
-                arguments(Direction.NORTH, "0:0:W"),
-                arguments(Direction.EAST, "0:0:N"),
-                arguments(Direction.SOUTH, "0:0:E"),
-                arguments(Direction.WEST, "0:0:S")
+                arguments(NorthDirection.Instance, "0:0:W"),
+                arguments(EastDirection.Instance, "0:0:N"),
+                arguments(SouthDirection.Instance, "0:0:E"),
+                arguments(WestDirection.Instance, "0:0:S")
         );
     }
 
@@ -59,7 +59,7 @@ public class MarsRoverTests {
         final var sut = new MarsRover(direction);
 
         // act
-        final var actual = sut.move("R");
+        final var actual = sut.executeCommands("R");
 
         // assert
         assertEquals(expected, actual);
@@ -67,10 +67,10 @@ public class MarsRoverTests {
 
     private static Stream<Arguments> givenMarsRoverAt00_WithRAsInput_ThenTurnsRight() {
         return Stream.of(
-                arguments(Direction.NORTH, "0:0:E"),
-                arguments(Direction.EAST, "0:0:S"),
-                arguments(Direction.SOUTH, "0:0:W"),
-                arguments(Direction.WEST, "0:0:N")
+                arguments(NorthDirection.Instance, "0:0:E"),
+                arguments(EastDirection.Instance, "0:0:S"),
+                arguments(SouthDirection.Instance, "0:0:W"),
+                arguments(WestDirection.Instance, "0:0:N")
         );
     }
 
@@ -82,7 +82,7 @@ public class MarsRoverTests {
         final var sut = new MarsRover(grid);
 
         // act
-        final var actual = sut.move("M");
+        final var actual = sut.executeCommands("M");
 
         // assert
         assertEquals("O:0:0:N", actual);

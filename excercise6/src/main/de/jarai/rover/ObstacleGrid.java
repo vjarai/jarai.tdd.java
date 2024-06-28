@@ -12,6 +12,11 @@ public class ObstacleGrid {
     }
 
     public boolean hasObstacleAt(Position position) {
-        return obstacles.contains(position);
+        for (Position obstacle : obstacles) {
+            if (obstacle.equals(position)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

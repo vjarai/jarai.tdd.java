@@ -13,7 +13,7 @@ public class ObstacleGridTests {
         sut.addObstacle(obstaclePosition);
 
         // act
-        final var actual = sut.hasObstacleAt(obstaclePosition);
+        final var actual = sut.hasObstacleAt(new Position(0,1));
 
         // assert
         Assertions.assertTrue(actual);
