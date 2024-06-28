@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/EastDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/NorthDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/SouthDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/WestDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/AcceptanceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/DirectionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise6/_ReadMe/classDiagram.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/ObstacleGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/ObstacleGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/DirectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/MarsRoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/MarsRoverTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/ObstacleGridTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/ObstacleGridTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/PositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vjarai"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vjarai&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vjarai/jarai.tdd.java",
-    "accountId": "391d1ad1-3eea-449c-9a84-38ecb085d844"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vjarai/jarai.tdd.java&quot;,
+    &quot;accountId&quot;: &quot;391d1ad1-3eea-449c-9a84-38ecb085d844&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -93,7 +79,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,11 +106,11 @@
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\_ReadMe" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise5\src" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise4" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src\main" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\_ReadMe" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\src\test6\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -297,7 +283,8 @@
       <workItem from="1701023321389" duration="15000" />
       <workItem from="1701680766853" duration="12000" />
       <workItem from="1701761730824" duration="462000" />
-      <workItem from="1719561918970" duration="3705000" />
+      <workItem from="1719561918970" duration="3932000" />
+      <workItem from="1719565913685" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -377,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698951239313</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="....">
+      <option name="closed" value="true" />
+      <created>1719565765569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719565765569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise6/src</OriginalElement>
+  <nodes>
+    <node x="613.8892617449665" y="797.8926174496644">de.jarai.rover.WestDirection</node>
+    <node x="62.281879194630875" y="797.8926174496644">de.jarai.rover.NorthDirection</node>
+    <node x="488.8909395973154" y="585.3926174496644">de.jarai.rover.Direction</node>
+    <node x="881.2919463087248" y="797.8926174496644">de.jarai.rover.EastDirection</node>
+    <node x="867.238255033557" y="334.8926174496644">de.jarai.rover.Position</node>
+    <node x="483.8909395973155" y="430.8926174496644">de.jarai.rover.ObstacleGrid</node>
+    <node x="338.08557046979865" y="797.8926174496644">de.jarai.rover.SouthDirection</node>
+    <node x="116.73825503355704" y="334.8926174496644">de.jarai.rover.MarsRover</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="de.jarai.rover.MarsRover" target="de.jarai.rover.Position" relationship="TO_ONE">
+      <point x="127.5" y="-25.5" />
+      <point x="-96.5" y="-14.0" />
+    </edge>
+    <edge source="de.jarai.rover.SouthDirection" target="de.jarai.rover.Direction" relationship="GENERALIZATION">
+      <point x="-2.5" y="-68.0" />
+      <point x="459.08557046979865" y="781.0" />
+      <point x="612.3912550335571" y="781.0" />
+      <point x="3.1543624163532513E-4" y="85.0" />
+    </edge>
+    <edge source="de.jarai.rover.ObstacleGrid" target="de.jarai.rover.Position" relationship="TO_MANY">
+      <point x="126.0" y="0.0" />
+      <point x="-96.5" y="59.5" />
+    </edge>
+    <edge source="de.jarai.rover.WestDirection" target="de.jarai.rover.Direction" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="737.3892617449665" y="781.0" />
+      <point x="612.3912550335571" y="781.0" />
+      <point x="3.1543624163532513E-4" y="85.0" />
+    </edge>
+    <edge source="de.jarai.rover.NorthDirection" target="de.jarai.rover.Direction" relationship="GENERALIZATION">
+      <point x="0.0" y="-68.0" />
+      <point x="185.78187919463087" y="781.0" />
+      <point x="612.3912550335571" y="781.0" />
+      <point x="3.1543624163532513E-4" y="85.0" />
+    </edge>
+    <edge source="de.jarai.rover.MarsRover" target="de.jarai.rover.Direction" relationship="TO_ONE">
+      <point x="0.0" y="104.0" />
+      <point x="244.23825503355704" y="670.3926174496644" />
+      <point x="-123.5" y="0.0" />
+    </edge>
+    <edge source="de.jarai.rover.MarsRover" target="de.jarai.rover.ObstacleGrid" relationship="TO_ONE">
+      <point x="127.5" y="48.0" />
+      <point x="-125.99999999999994" y="0.0" />
+    </edge>
+    <edge source="de.jarai.rover.EastDirection" target="de.jarai.rover.Direction" relationship="GENERALIZATION">
+      <point x="0.0" y="-68.0" />
+      <point x="1004.7919463087248" y="781.0" />
+      <point x="612.3912550335571" y="781.0" />
+      <point x="3.1543624163532513E-4" y="85.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="1.146153846153846" showDependencies="true" x="581.724832214765" y="731.0" />
+  <SelectedNodes>
+    <node>de.jarai.rover.SouthDirection</node>
+    <node>de.jarai.rover.NorthDirection</node>
+    <node>de.jarai.rover.ObstacleGrid</node>
+    <node>de.jarai.rover.Direction</node>
+    <node>de.jarai.rover.WestDirection</node>
+    <node>de.jarai.rover.EastDirection</node>
+    <node>de.jarai.rover.Position</node>
+    <node>de.jarai.rover.MarsRover</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
