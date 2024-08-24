@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
+      <change afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwWithMotorMockTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/AcceptanceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/AcceptanceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/DirectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/DirectionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/MarsRoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/test/de/jarai/rover/MarsRoverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Cabrio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/FakeMotor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Pkw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwWithMotorStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwWithMockitoMockedMotorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution1/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution1/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/states/PickedUpState.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/states/PickedUpState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution1/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution1/PhoneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +28,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,10 +79,19 @@
     "JUnit.AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N.executor": "Debug",
     "JUnit.AcceptanceTests.executor": "Run",
     "JUnit.All in tdd.marsrover_kata.executor": "Run",
+    "JUnit.All in tdd.outside_in.executor": "Coverage",
+    "JUnit.All in tdd.pattern_state.executor": "Coverage",
+    "JUnit.All in tdd.red_green_refactor.executor": "Coverage",
+    "JUnit.All in tdd.testdoubles.executor": "Run",
     "JUnit.DirectionTests.executor": "Run",
+    "JUnit.FizzBuzzGameTests.executor": "Run",
     "JUnit.MarsRoverTests.executor": "Run",
     "JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left.executor": "Run",
     "JUnit.ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue.executor": "Run",
+    "JUnit.PhoneTests.executor": "Run",
+    "JUnit.PhoneTests.givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException.executor": "Run",
+    "JUnit.Whole project.executor": "Run",
+    "JUnit.de.jarai.patterns.state.solution1 in tdd.pattern_state.executor": "Run",
     "JUnit.de.jarai.rover in tdd.marsrover_kata.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -85,7 +107,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/excercise6",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,70 +154,50 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in tdd.marsrover_kata">
-    <configuration name="AcceptanceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.marsrover_kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.jarai.rover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.rover" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.AcceptanceTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in tdd.marsrover_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.marsrover_kata" />
+  <component name="RunManager" selected="JUnit.All in tdd.pattern_state">
+    <configuration name="All in tdd.outside_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.outside_in" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.marsrover_kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.jarai.rover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.rover" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.MarsRoverTests" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="All in tdd.pattern_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.pattern_state" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTests.given_new_MarsRover_when_L_turns_Left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.marsrover_kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.jarai.rover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.rover" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.rover.MarsRoverTests" />
-      <option name="METHOD_NAME" value="given_new_MarsRover_when_L_turns_Left(de.jarai.rover.Direction,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="All in tdd.testdoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.testdoubles" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="de.jarai.rover in tdd.marsrover_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.marsrover_kata" />
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.jarai.patterns.state.solution1 in tdd.pattern_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.pattern_state" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.jarai.rover.*" />
+          <option name="PATTERN" value="de.jarai.patterns.state.solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.rover" />
+      <option name="PACKAGE_NAME" value="de.jarai.patterns.state.solution1" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,19 +218,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in tdd.marsrover_kata" />
-        <item itemvalue="JUnit.MarsRoverTests" />
-        <item itemvalue="JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left" />
-        <item itemvalue="JUnit.de.jarai.rover in tdd.marsrover_kata" />
-        <item itemvalue="JUnit.AcceptanceTests" />
+        <item itemvalue="JUnit.All in tdd.pattern_state" />
+        <item itemvalue="JUnit.de.jarai.patterns.state.solution1 in tdd.pattern_state" />
+        <item itemvalue="JUnit.Whole project" />
+        <item itemvalue="JUnit.All in tdd.testdoubles" />
+        <item itemvalue="JUnit.All in tdd.outside_in" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -281,7 +283,10 @@
       <workItem from="1701680766853" duration="12000" />
       <workItem from="1701761730824" duration="462000" />
       <workItem from="1719561918970" duration="3932000" />
-      <workItem from="1719565913685" duration="2274000" />
+      <workItem from="1719565913685" duration="2409000" />
+      <workItem from="1722785216118" duration="9000" />
+      <workItem from="1724492092403" duration="186000" />
+      <workItem from="1724492286306" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -377,7 +382,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719566585857</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="....">
+      <option name="closed" value="true" />
+      <created>1719568335033</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719568335033</updated>
+    </task>
+    <task id="LOCAL-00014" summary="....">
+      <option name="closed" value="true" />
+      <created>1724494857480</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724494857480</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,9 +421,24 @@
     <MESSAGE value="...." />
     <option name="LAST_COMMIT_MESSAGE" value="...." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jarai_tdd_java$MarsRoverTests.ic" NAME="MarsRoverTests Coverage Results" MODIFIED="1719567234873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>de.jarai.rover.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_red_green_refactor.ic" NAME="All in tdd.red_green_refactor Coverage Results" MODIFIED="1724493866785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_testdoubles.ic" NAME="All in tdd.testdoubles Coverage Results" MODIFIED="1724494068537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_outside_in.ic" NAME="All in tdd.outside_in Coverage Results" MODIFIED="1724493913624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_pattern_state.ic" NAME="All in tdd.pattern_state Coverage Results" MODIFIED="1724495715839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

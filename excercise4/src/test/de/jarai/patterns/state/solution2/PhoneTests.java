@@ -1,7 +1,8 @@
 package de.jarai.patterns.state.solution2;
 
 import de.jarai.patterns.state.solution2.exceptions.InvalidPhoneOperationException;
-import org.junit.jupiter.api.Disabled;
+import de.jarai.patterns.state.solution2.states.ConnectedState;
+import de.jarai.patterns.state.solution2.states.PickedUpState;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
@@ -10,9 +11,9 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class PhoneTests {
 
     @Test
-    void givenNewPhone_whenPickUp_thenDoesntThrowAnException() {
+    void givenNewPhone_canPickUp() {
         // given / arrange
-        final var sut = new Phone(); // sut = subject under test
+        final var sut = new Phone();
 
         // when / act
         // then / assert
@@ -20,10 +21,9 @@ public class PhoneTests {
     }
 
     @Test
-    void givenPhoneIsPickedUp_whenPickUp_thenThrowsInvalidPhoneOperationException() {
+    void givenPickedUpPhone_whenPickUp_thenThrowsInvalidPhoneOperationException() {
         // given / arrange
-        final var sut = new Phone();
-        sut.pickUp();
+        final var sut = new Phone(new PickedUpState());
 
         // when / act
         // then / assert
@@ -41,10 +41,9 @@ public class PhoneTests {
     }
 
     @Test
-    void givenPhoneIsPickedUp_whenDial_thenDoesntThrowException() {
+    void givenPickedUpPhone_canDial() {
         // given / arrange
-        final var sut = new Phone(); // sut = subject under test
-        sut.pickUp();
+        final var sut = new Phone( new PickedUpState());
 
         // when / act
         // then / assert
@@ -54,7 +53,7 @@ public class PhoneTests {
     @Test
     void givenNewPhone_whenHangUp_thenThrowsInvalidPhoneOperationException() {
         // given / arrange
-        final var sut = new Phone(); // sut = subject under test
+        final var sut = new Phone();
 
         // when / act
         // then / assert
@@ -62,11 +61,9 @@ public class PhoneTests {
     }
 
     @Test
-    void givenPhoneIsConnected_whenHangUp_thenDoesntThrowAnException() {
+    void givenConnectedPhone_canHangUp() {
         // given / arrange
-        final var sut = new Phone();
-        sut.pickUp();
-        sut.dial();
+        final var sut = new Phone( new ConnectedState());
 
         // when / act
         // then / assert
@@ -74,13 +71,10 @@ public class PhoneTests {
     }
 
     @Test
-    @Disabled
-        // at  this point we noticed, that the solution given by pure tdd and extremely dumb
-        // kiss is too complex.
-    void givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException() {
+    //@Disabled
+    void givenPickedUpPhone_canHangUp() {
         // given / arrange
-        final var sut = new Phone();
-        sut.pickUp();
+        final var sut = new Phone( new PickedUpState());
 
         // when / act
         // then / assert

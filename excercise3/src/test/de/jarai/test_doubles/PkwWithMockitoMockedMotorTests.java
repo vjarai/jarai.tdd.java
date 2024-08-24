@@ -3,7 +3,7 @@ package de.jarai.test_doubles;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-public class PkwTestsUsingMoqMockedMotor {
+public class PkwWithMockitoMockedMotorTests {
     @Test
     public void Fahren_startet_Motor() {
         // Arrange

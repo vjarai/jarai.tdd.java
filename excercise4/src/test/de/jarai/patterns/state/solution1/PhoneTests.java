@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class PhoneTests {
 
     @Test
-    void givenNewPhone_whenPickUp_thenDoesntThrowAnException() {
+    void givenNewPhone_canPickUp() {
         // given / arrange
         final var sut = new Phone(); // sut = subject under test
 
@@ -20,7 +20,7 @@ public class PhoneTests {
     }
 
     @Test
-    void givenPhoneIsPickedUp_whenPickUp_thenThrowsInvalidPhoneOperationException() {
+    void givenPickedUpPhone_whenPickUp_thenThrowsInvalidPhoneOperationException() {
         // given / arrange
         final var sut = new Phone();
         sut.pickUp();
@@ -41,7 +41,7 @@ public class PhoneTests {
     }
 
     @Test
-    void givenPhoneIsPickedUp_whenDial_thenDoesntThrowException() {
+    void givenPickedUpPhone_canDial() {
         // given / arrange
         final var sut = new Phone(); // sut = subject under test
         sut.pickUp();
@@ -62,7 +62,7 @@ public class PhoneTests {
     }
 
     @Test
-    void givenPhoneIsConnected_whenHangUp_thenDoesntThrowAnException() {
+    void givenConnectedPhone_canHangUp() {
         // given / arrange
         final var sut = new Phone();
         sut.pickUp();
@@ -77,7 +77,7 @@ public class PhoneTests {
     @Disabled
     // at  this point we noticed, that the solution given by pure tdd and extremely dumb
     // kiss is too complex.
-    void givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException() {
+    void givenPickedUpPhone_canHangUp() {
         // given / arrange
         final var sut = new Phone();
         sut.pickUp();

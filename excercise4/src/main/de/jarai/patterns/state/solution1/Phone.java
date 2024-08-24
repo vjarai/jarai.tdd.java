@@ -14,7 +14,7 @@ public class Phone {
     private State currentState = State.HUNG_UP;
 
     public void pickUp() {
-        if (State.PICKED_UP.equals(currentState)) {
+        if (!currentState.equals(State.HUNG_UP)) {
             throw new InvalidPhoneOperationException();
         }
         this.currentState = State.PICKED_UP;

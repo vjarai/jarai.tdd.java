@@ -2,7 +2,7 @@ package de.jarai.test_doubles;
 
 public class Pkw {
     public IMotor _motor;
-    public double Tachostand;
+    public double _tachostand;
 
     public Pkw(IMotor motor) {
         _motor = motor;
@@ -11,7 +11,7 @@ public class Pkw {
     public void Fahren(double strecke) {
         _motor.Anlassen();
 
-        Tachostand += strecke;
+        _tachostand += strecke;
 
         _motor.Abstellen();
     }

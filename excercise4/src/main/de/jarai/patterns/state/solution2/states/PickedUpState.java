@@ -5,4 +5,8 @@ public class PickedUpState extends PhoneState {
     public PhoneState dial() {
         return new ConnectedState();
     }
+
+    @Override public PhoneState hangUp(){
+        return new HungUpState();
+    }
 }
