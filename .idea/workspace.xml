@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwWithMotorMockTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/exercise7/src/tdd/kniffel_kata/KniffelCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/exercise7/test/KniffelCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Cabrio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/FakeMotor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Pkw.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Pkw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/StubbedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingFakeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwWithMotorStubTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingMoqMockedMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwWithMockitoMockedMotorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/test/de/jarai/test_doubles/PkwTestsUsingStubbedMotor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution1/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution1/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/states/PickedUpState.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/main/de/jarai/patterns/state/solution2/states/PickedUpState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution1/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution1/PhoneTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,11 +64,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AcceptanceTests.ExecuteCommands_MMMMMMMMMM_should_0_0_N.executor": "Run",
     "JUnit.AcceptanceTests.ExecuteCommands_MMMM_with_Obstacle_0_3_should_O_0_2_N.executor": "Run",
     "JUnit.AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N.executor": "Debug",
     "JUnit.AcceptanceTests.executor": "Run",
+    "JUnit.All in tdd.kniffel_kata.executor": "Run",
     "JUnit.All in tdd.marsrover_kata.executor": "Run",
     "JUnit.All in tdd.outside_in.executor": "Coverage",
     "JUnit.All in tdd.pattern_state.executor": "Coverage",
@@ -85,6 +78,9 @@
     "JUnit.All in tdd.testdoubles.executor": "Run",
     "JUnit.DirectionTests.executor": "Run",
     "JUnit.FizzBuzzGameTests.executor": "Run",
+    "JUnit.KniffelCalculatorTest.executor": "Run",
+    "JUnit.KniffelCalculatorTest.testFullHouse.executor": "Run",
+    "JUnit.KniffelCalculatorTest.testTwoPair.executor": "Run",
     "JUnit.MarsRoverTests.executor": "Run",
     "JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left.executor": "Run",
     "JUnit.ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue.executor": "Run",
@@ -116,7 +112,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -134,18 +130,18 @@
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\_ReadMe" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise5\src" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise4" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src\main" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\_ReadMe" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ex01" />
       <recent name="" />
+      <recent name="ex01" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -154,51 +150,53 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in tdd.pattern_state">
-    <configuration name="All in tdd.outside_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.outside_in" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in tdd.pattern_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.pattern_state" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in tdd.testdoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.testdoubles" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="de.jarai.patterns.state.solution1 in tdd.pattern_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.pattern_state" />
+  <component name="RunManager" selected="JUnit.KniffelCalculatorTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.kniffel_kata.Main" />
+      <module name="tdd.kniffel_kata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.jarai.patterns.state.solution1.*" />
+          <option name="PATTERN" value="tdd.kniffel_kata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.patterns.state.solution1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in tdd.kniffel_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.kniffel_kata" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KniffelCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.kniffel_kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KniffelCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KniffelCalculatorTest.testFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.kniffel_kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KniffelCalculatorTest" />
+      <option name="METHOD_NAME" value="testFullHouse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KniffelCalculatorTest.testTwoPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.kniffel_kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KniffelCalculatorTest" />
+      <option name="METHOD_NAME" value="testTwoPair" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,19 +216,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in tdd.pattern_state" />
-        <item itemvalue="JUnit.de.jarai.patterns.state.solution1 in tdd.pattern_state" />
-        <item itemvalue="JUnit.Whole project" />
-        <item itemvalue="JUnit.All in tdd.testdoubles" />
-        <item itemvalue="JUnit.All in tdd.outside_in" />
+        <item itemvalue="JUnit.KniffelCalculatorTest" />
+        <item itemvalue="JUnit.All in tdd.kniffel_kata" />
+        <item itemvalue="JUnit.KniffelCalculatorTest.testFullHouse" />
+        <item itemvalue="JUnit.KniffelCalculatorTest.testTwoPair" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -286,7 +284,11 @@
       <workItem from="1719565913685" duration="2409000" />
       <workItem from="1722785216118" duration="9000" />
       <workItem from="1724492092403" duration="186000" />
-      <workItem from="1724492286306" duration="3554000" />
+      <workItem from="1724492286306" duration="3595000" />
+      <workItem from="1724572382212" duration="85000" />
+      <workItem from="1724575862750" duration="168000" />
+      <workItem from="1724576039903" duration="465000" />
+      <workItem from="1724853234686" duration="1733000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -398,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724494857480</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="....">
+      <option name="closed" value="true" />
+      <created>1724495892678</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724495892678</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +441,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jarai_tdd_java$MarsRoverTests.ic" NAME="MarsRoverTests Coverage Results" MODIFIED="1719567234873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
