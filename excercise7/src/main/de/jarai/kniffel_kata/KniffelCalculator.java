@@ -1,4 +1,4 @@
-package tdd.kniffel_kata;
+package de.jarai.kniffel_kata;
 
 public class KniffelCalculator
     {

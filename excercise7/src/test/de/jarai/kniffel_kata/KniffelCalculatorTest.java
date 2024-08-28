@@ -1,5 +1,6 @@
+package de.jarai.kniffel_kata;
+
 import org.junit.jupiter.api.Test;
-import tdd.kniffel_kata.KniffelCalculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

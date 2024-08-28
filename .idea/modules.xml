@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/excercise0/exercise7/tdd.kniffel_kata.iml" filepath="$PROJECT_DIR$/excercise0/exercise7/tdd.kniffel_kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" filepath="$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" />
       <module fileurl="file://$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" filepath="$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" />
       <module fileurl="file://$PROJECT_DIR$/excercise2/tdd.outside_in.iml" filepath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" />
       <module fileurl="file://$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" filepath="$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" />

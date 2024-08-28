@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/excercise0/exercise7/src/tdd/kniffel_kata/KniffelCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise0/exercise7/test/KniffelCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/src/main/de/jarai/rover/MarsRover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/excercise7/src/tdd/kniffel_kata/KniffelCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/main/de/jarai/kniffel_kata/KniffelCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/excercise7/tdd.kniffel_kata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/excercise7/test/KniffelCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/test/KniffelCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,11 +129,11 @@
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\_ReadMe" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise5\src" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise4" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0\src\main" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -150,7 +149,7 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KniffelCalculatorTest">
+  <component name="RunManager" selected="JUnit.All in tdd.kniffel_kata">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tdd.kniffel_kata.Main" />
       <module name="tdd.kniffel_kata" />
@@ -174,8 +173,8 @@
     </configuration>
     <configuration name="KniffelCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.kniffel_kata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KniffelCalculatorTest" />
+      <option name="PACKAGE_NAME" value="de.jarai.kniffel_kata" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.kniffel_kata.KniffelCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,8 +182,8 @@
     </configuration>
     <configuration name="KniffelCalculatorTest.testFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.kniffel_kata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KniffelCalculatorTest" />
+      <option name="PACKAGE_NAME" value="de.jarai.kniffel_kata" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.kniffel_kata.KniffelCalculatorTest" />
       <option name="METHOD_NAME" value="testFullHouse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -193,8 +192,8 @@
     </configuration>
     <configuration name="KniffelCalculatorTest.testTwoPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.kniffel_kata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KniffelCalculatorTest" />
+      <option name="PACKAGE_NAME" value="de.jarai.kniffel_kata" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.kniffel_kata.KniffelCalculatorTest" />
       <option name="METHOD_NAME" value="testTwoPair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -216,8 +215,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KniffelCalculatorTest" />
         <item itemvalue="JUnit.All in tdd.kniffel_kata" />
+        <item itemvalue="JUnit.KniffelCalculatorTest" />
         <item itemvalue="JUnit.KniffelCalculatorTest.testFullHouse" />
         <item itemvalue="JUnit.KniffelCalculatorTest.testTwoPair" />
         <item itemvalue="Application.Main" />
@@ -288,7 +287,7 @@
       <workItem from="1724572382212" duration="85000" />
       <workItem from="1724575862750" duration="168000" />
       <workItem from="1724576039903" duration="465000" />
-      <workItem from="1724853234686" duration="1733000" />
+      <workItem from="1724853234686" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -408,7 +407,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724495892678</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="....">
+      <option name="closed" value="true" />
+      <created>1724855069977</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724855069977</updated>
+    </task>
+    <task id="LOCAL-00017" summary="....">
+      <option name="closed" value="true" />
+      <created>1724855152752</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724855152752</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
