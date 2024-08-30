@@ -1,7 +1,8 @@
 package de.jarai.patterns.adapter;
 
 public class UsbCharger {
-    public void chargeViaUsb() {
+    public int chargeViaUsb() {
 
+        return 500;
     }
 }

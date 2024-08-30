@@ -9,7 +9,7 @@ public class UsbToAppleChagerAdapter extends AppleCharger {
     }
 
     @Override
-    public void chargeViaLigthning() {
-        usbCharger.chargeViaUsb();
+    public int chargeViaLigthning() {
+        return usbCharger.chargeViaUsb();
     }
 }
