@@ -15,4 +15,9 @@ public class MotorMock implements IMotor {
     public void Abstellen() {
         motorWurdeAbgestellt = true;
     }
+
+    @Override
+    public int getDrehzahl() {
+        return 0;
+    }
 }

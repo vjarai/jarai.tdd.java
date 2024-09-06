@@ -11,73 +11,54 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class PhoneTests {
 
     @Test
-    void givenNewPhone_canPickUp() {
-        // given / arrange
+    void NewPhone_canPickUp() {
+
         final var sut = new Phone();
 
-        // when / act
-        // then / assert
         assertDoesNotThrow(sut::pickUp);
     }
 
     @Test
-    void givenPickedUpPhone_whenPickUp_thenThrowsInvalidPhoneOperationException() {
-        // given / arrange
+    void PickedUpPhone_whenPickUp_throws_InvalidPhoneOperationException() {
         final var sut = new Phone(new PickedUpState());
 
-        // when / act
-        // then / assert
         assertThrows(InvalidPhoneOperationException.class, sut::pickUp);
     }
 
     @Test
-    void givenNewPhone_whenDial_thenThrowsInvalidPhoneOperationException() {
-        // given / arrange
+    void NewPhone_whenDial_throws_InvalidPhoneOperationException() {
         final var sut = new Phone();
 
-        // when / act
-        // then / assert
         assertThrows(InvalidPhoneOperationException.class, sut::dial);
     }
 
     @Test
-    void givenPickedUpPhone_canDial() {
-        // given / arrange
+    void PickedUpPhone_canDial() {
         final var sut = new Phone( new PickedUpState());
 
-        // when / act
-        // then / assert
         assertDoesNotThrow(sut::dial);
     }
 
     @Test
-    void givenNewPhone_whenHangUp_thenThrowsInvalidPhoneOperationException() {
-        // given / arrange
+    void NewPhone_whenHangUp_throws_InvalidPhoneOperationException() {
         final var sut = new Phone();
 
-        // when / act
-        // then / assert
         assertThrows(InvalidPhoneOperationException.class, sut::hangUp);
     }
 
     @Test
-    void givenConnectedPhone_canHangUp() {
-        // given / arrange
+    void ConnectedPhone_canHangUp() {
         final var sut = new Phone( new ConnectedState());
 
-        // when / act
-        // then / assert
         assertDoesNotThrow(sut::hangUp);
     }
 
     @Test
     //@Disabled
-    void givenPickedUpPhone_canHangUp() {
-        // given / arrange
+    void PickedUpPhone_canHangUp() {
+
         final var sut = new Phone( new PickedUpState());
 
-        // when / act
-        // then / assert
         assertDoesNotThrow(sut::hangUp);
     }
 

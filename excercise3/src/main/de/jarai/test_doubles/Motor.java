@@ -10,4 +10,9 @@ public class Motor implements IMotor {
     public void Abstellen() {
         Drehzahl = 0;
     }
+
+    @Override
+    public int getDrehzahl() {
+        return Drehzahl;
+    }
 }

@@ -4,4 +4,7 @@ public interface IMotor {
     void Anlassen();
 
     void Abstellen();
+
+    int getDrehzahl();
+
 }

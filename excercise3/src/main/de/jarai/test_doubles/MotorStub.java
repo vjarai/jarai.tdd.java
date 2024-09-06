@@ -9,4 +9,9 @@ public class MotorStub implements IMotor {
 
     public void Abstellen() {
     }
+
+    @Override
+    public int getDrehzahl() {
+        return 0;
+    }
 }
