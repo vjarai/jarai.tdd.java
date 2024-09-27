@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/IMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/IMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/src/main/de/jarai/test_doubles/MotorStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +317,7 @@
       <workItem from="1725000812952" duration="12785000" />
       <workItem from="1725079144181" duration="222000" />
       <workItem from="1725532191567" duration="1001000" />
-      <workItem from="1725644212795" duration="1722000" />
+      <workItem from="1725644212795" duration="2195000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -486,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724999100110</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=".">
+      <option name="closed" value="true" />
+      <created>1725647140249</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1725647140249</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
