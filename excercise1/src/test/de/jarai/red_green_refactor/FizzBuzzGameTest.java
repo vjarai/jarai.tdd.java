@@ -22,7 +22,7 @@ class FizzBuzzGameTests {
     }
 
     @Test
-    public void GetResponse_when_1_then_1() {
+    public void givenNumberOne_whenGetResponse_thenReturnsOne() {
         // Arrange
         var game = new FizzBuzzGame();
 
@@ -34,7 +34,7 @@ class FizzBuzzGameTests {
     }
 
     @Test
-    public void GetResponse_when_3_then_Fizz() {
+    public void givenNumberDivisibleBy3_whenGetResponse_thenReturnsFizz() {
         // Arrange
         var game = new FizzBuzzGame();
 
@@ -46,7 +46,7 @@ class FizzBuzzGameTests {
     }
 
     @Test
-    public void GetResponse_when_5_then_Buzz() {
+    public void givenNumberDivisibleBy5_whenGetResponse_thenReturnsBuzz() {
         // Arrange
         var game = new FizzBuzzGame();
 
@@ -58,7 +58,7 @@ class FizzBuzzGameTests {
     }
 
     @Test
-    public void GetResponse_when_15_then_FizzBuzz() {
+    public void givenNumberDivisibleBy3And5_whenGetResponse_thenReturnsFizzBuzz() {
         // Arrange
         var game = new FizzBuzzGame();
 
@@ -71,23 +71,24 @@ class FizzBuzzGameTests {
 
     @ParameterizedTest
     @ValueSource(ints = {0, 101})
-    public void GetResponse_when_less_then_1_or_bigger_then_100_throws_IllegalArgumentException(int input) {
+    public void givenNumberOutOfRange_whenGetResponse_thenThrowsIllegalArgumentException(int input) {
         // Arrange
         var game = new FizzBuzzGame();
 
         // Act
-        var exception = Assertions.assertThrows(IllegalArgumentException.class, () -> game.GetResponse(input));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> game.GetResponse(input));
         //assertTrue(exception.getMessage().contains("test"));
     }
 
     /**
-     * Parametrisierter Test: Deckt alle einfachem Testfälle in einem einzigen Test ab
-     * @param input
-     * @param expected
+     * Parametrisierter Test: Deckt alle einfachen Testfälle in einem einzigen Test ab.
+     *
+     * @param input der Inputwert
+     * @param expected das erwartete Ergebnis (Integer oder String)
      */
     @ParameterizedTest
     @MethodSource("getInputDataForParameterizedTest")
-    public void GetResponse(int input, Object expected) {
+    public void givenVariousInputs_whenGetResponse_thenReturnsExpected(int input, Object expected) {
         // Arrange
         var game = new FizzBuzzGame();
 
