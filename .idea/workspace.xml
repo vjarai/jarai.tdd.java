@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment="." />
+    <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +37,12 @@
     &quot;assignee&quot;: &quot;vjarai&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vjarai/jarai.tdd.java&quot;,
-    &quot;accountId&quot;: &quot;391d1ad1-3eea-449c-9a84-38ecb085d844&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vjarai/jarai.tdd.java",
+    "accountId": "7cd0a9d1-da25-4d6f-b629-b0356e9c72a2"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,92 +50,93 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2XOu9S9cpeI0y8HUpVH58KYRCUi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AcceptanceTest.Move_MMRMMLM_2_3_N.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AcceptanceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AcceptanceTests.ExecuteCommands_MMMMMMMMMM_should_0_0_N.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AcceptanceTests.ExecuteCommands_MMMM_with_Obstacle_0_3_should_O_0_2_N.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.AcceptanceTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Uebung2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in tdd.kniffel_kata.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in tdd.marsrover_kata.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in tdd.outside_in.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.All in tdd.pattern_state.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.All in tdd.red_green_refactor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in tdd.testdoubles.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DirectionTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzGameTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.FizzBuzz_given_15_should_FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.FizzBuzz_given_1_should_1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.FizzBuzz_given_30_should_FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.FizzBuzz_given_3_should_Fizz.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.FizzBuzz_given_5_should_Buzz.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.FizzBuzz_given_6_should_Fizz.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FizzBuzzTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KniffelCalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KniffelCalculatorTest.testFullHouse.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KniffelCalculatorTest.testTwoPair.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KontoTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KontoTests.testAuszahlen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KontoTests.testAuszahlen_runtimeExceptionFailure.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KontoTests.testEinzahlen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KontoTests.testKontoauszug.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KontoTests.whenNewAccount_GivenNoFurtherAction_ThenBalanceIsZero.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MarsRoverTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PhoneTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PhoneTests.givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RoverTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Whole project.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.de.jarai.patterns.state.solution1 in tdd.pattern_state.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.de.jarai.rover in tdd.marsrover_kata.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Uebung2/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N.executor": "Run",
+    "JUnit.AcceptanceTest.Move_MMRMMLM_2_3_N.executor": "Run",
+    "JUnit.AcceptanceTest.executor": "Run",
+    "JUnit.AcceptanceTests.ExecuteCommands_MMMMMMMMMM_should_0_0_N.executor": "Run",
+    "JUnit.AcceptanceTests.ExecuteCommands_MMMM_with_Obstacle_0_3_should_O_0_2_N.executor": "Run",
+    "JUnit.AcceptanceTests.ExecuteCommands_MMRMMLM_should_2_3_N.executor": "Debug",
+    "JUnit.AcceptanceTests.executor": "Run",
+    "JUnit.AccountTest.executor": "Run",
+    "JUnit.All in Uebung2.executor": "Run",
+    "JUnit.All in tdd.kniffel_kata.executor": "Run",
+    "JUnit.All in tdd.marsrover_kata.executor": "Run",
+    "JUnit.All in tdd.outside_in.executor": "Coverage",
+    "JUnit.All in tdd.pattern_state.executor": "Coverage",
+    "JUnit.All in tdd.red_green_refactor.executor": "Run",
+    "JUnit.All in tdd.testdoubles.executor": "Run",
+    "JUnit.DirectionTests.executor": "Run",
+    "JUnit.FizzBuzzGameTests.executor": "Run",
+    "JUnit.FizzBuzzTests.FizzBuzz_given_15_should_FizzBuzz.executor": "Run",
+    "JUnit.FizzBuzzTests.FizzBuzz_given_1_should_1.executor": "Run",
+    "JUnit.FizzBuzzTests.FizzBuzz_given_30_should_FizzBuzz.executor": "Run",
+    "JUnit.FizzBuzzTests.FizzBuzz_given_3_should_Fizz.executor": "Run",
+    "JUnit.FizzBuzzTests.FizzBuzz_given_5_should_Buzz.executor": "Run",
+    "JUnit.FizzBuzzTests.FizzBuzz_given_6_should_Fizz.executor": "Run",
+    "JUnit.FizzBuzzTests.executor": "Run",
+    "JUnit.KniffelCalculatorTest.executor": "Run",
+    "JUnit.KniffelCalculatorTest.testFullHouse.executor": "Run",
+    "JUnit.KniffelCalculatorTest.testTwoPair.executor": "Run",
+    "JUnit.KontoTests.executor": "Run",
+    "JUnit.KontoTests.testAuszahlen.executor": "Run",
+    "JUnit.KontoTests.testAuszahlen_runtimeExceptionFailure.executor": "Run",
+    "JUnit.KontoTests.testEinzahlen.executor": "Run",
+    "JUnit.KontoTests.testKontoauszug.executor": "Run",
+    "JUnit.KontoTests.whenNewAccount_GivenNoFurtherAction_ThenBalanceIsZero.executor": "Run",
+    "JUnit.MarsRoverTests.executor": "Run",
+    "JUnit.MarsRoverTests.given_new_MarsRover_when_L_turns_Left.executor": "Run",
+    "JUnit.ObstacleGridTests.givenObstacleAt01_WhenHasObstacleAt01_ThenReturnsTrue.executor": "Run",
+    "JUnit.PhoneTests.executor": "Run",
+    "JUnit.PhoneTests.givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException.executor": "Run",
+    "JUnit.RoverTest.executor": "Run",
+    "JUnit.Whole project.executor": "Run",
+    "JUnit.de.jarai.patterns.state.solution1 in tdd.pattern_state.executor": "Run",
+    "JUnit.de.jarai.rover in tdd.marsrover_kata.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Viktor/source/repos/Seminare Sourcen/jarai.tdd.java/Uebung2/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver.localdb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -166,7 +170,7 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KniffelCalculatorTest">
+  <component name="RunManager" selected="JUnit.All in tdd.red_green_refactor">
     <configuration name="AcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uebung3" />
       <option name="PACKAGE_NAME" value="" />
@@ -196,6 +200,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in tdd.red_green_refactor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.red_green_refactor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KniffelCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.kniffel_kata" />
       <extension name="coverage">
@@ -206,15 +218,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.jarai.kniffel_kata" />
       <option name="MAIN_CLASS_NAME" value="de.jarai.kniffel_kata.KniffelCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uebung3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,19 +238,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd.red_green_refactor" />
         <item itemvalue="JUnit.KniffelCalculatorTest" />
         <item itemvalue="JUnit.AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N" />
         <item itemvalue="JUnit.AcceptanceTest" />
         <item itemvalue="JUnit.AcceptanceTest.Move_MMRMMLM_2_3_N" />
-        <item itemvalue="JUnit.RoverTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -318,6 +321,7 @@
       <workItem from="1725079144181" duration="222000" />
       <workItem from="1725532191567" duration="1001000" />
       <workItem from="1725644212795" duration="2195000" />
+      <workItem from="1762367860193" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
