@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise0/docs/Relationen.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercise7/docs/kniffel_class_diagram.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/docs/SolidKriterien.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/UML.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/Markdown Cheat Sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/Markdown Cheat Sheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/TestChecklist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/TestChecklist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/_Aufgaben.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/_Zusammenfassung.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/_Zusammenfassung.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/tdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/tdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/AcceptanceTestLoops.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/docs/AcceptanceTestLoops.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/KontoauszugTest.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/docs/KontoauszugTest.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/docs/_Aufgaben.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/_ReadMe/Mocking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/docs/Mocking.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise3/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/docs/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/docs/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/_ReadMe/classDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/docs/classDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise7/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/docs/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise7/_ReadMe/classDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/docs/classDiagram.uml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +55,12 @@
     &quot;assignee&quot;: &quot;vjarai&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vjarai/jarai.tdd.java",
-    "accountId": "7cd0a9d1-da25-4d6f-b629-b0356e9c72a2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vjarai/jarai.tdd.java&quot;,
+    &quot;accountId&quot;: &quot;7cd0a9d1-da25-4d6f-b629-b0356e9c72a2&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -74,7 +92,7 @@
     "JUnit.All in tdd.kniffel_kata.executor": "Run",
     "JUnit.All in tdd.marsrover_kata.executor": "Run",
     "JUnit.All in tdd.outside_in.executor": "Coverage",
-    "JUnit.All in tdd.pattern_state.executor": "Coverage",
+    "JUnit.All in tdd.pattern_state.executor": "Run",
     "JUnit.All in tdd.red_green_refactor.executor": "Run",
     "JUnit.All in tdd.testdoubles.executor": "Run",
     "JUnit.DirectionTests.executor": "Run",
@@ -149,11 +167,11 @@
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\Tests\ex06_MarsRoverKata\UnitTests\UnitTests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vikto\IdeaProjects\jarai.tdd.java\excercise7\docs" />
+      <recent name="C:\Users\vikto\IdeaProjects\jarai.tdd.java\excercise0\docs" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise0" />
       <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise7\src" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise6\_ReadMe" />
-      <recent name="C:\Users\Viktor\source\repos\Seminare Sourcen\jarai.tdd.java\excercise5\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -170,7 +188,7 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in tdd.red_green_refactor">
+  <component name="RunManager" selected="JUnit.All in tdd.pattern_state">
     <configuration name="AcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uebung3" />
       <option name="PACKAGE_NAME" value="" />
@@ -190,12 +208,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AcceptanceTest.Move_MMRMMLM_2_3_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uebung3" />
+    <configuration name="All in tdd.pattern_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.pattern_state" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AcceptanceTest" />
-      <option name="METHOD_NAME" value="Move_MMRMMLM_2_3_N" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd.pattern_state" />
         <item itemvalue="JUnit.All in tdd.red_green_refactor" />
         <item itemvalue="JUnit.KniffelCalculatorTest" />
         <item itemvalue="JUnit.AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N" />
         <item itemvalue="JUnit.AcceptanceTest" />
-        <item itemvalue="JUnit.AcceptanceTest.Move_MMRMMLM_2_3_N" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +338,8 @@
       <workItem from="1725532191567" duration="1001000" />
       <workItem from="1725644212795" duration="2195000" />
       <workItem from="1762367860193" duration="109000" />
+      <workItem from="1762367999160" duration="957000" />
+      <workItem from="1762368978259" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -489,11 +507,30 @@
       <option name="project" value="LOCAL" />
       <updated>1725647140249</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=".">
+      <option name="closed" value="true" />
+      <created>1762368392751</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1762368392751</updated>
+    </task>
+    <task id="LOCAL-00023" summary=".">
+      <option name="closed" value="true" />
+      <created>1762368412683</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1762368412683</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.puml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

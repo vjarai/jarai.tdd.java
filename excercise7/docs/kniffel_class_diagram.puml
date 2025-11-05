@@ -1,0 +1,46 @@
+@startuml
+' Kniffel kata class diagram generated from source
+package "de.jarai.kniffel_kata" {
+  class KniffelCalculator {
+    - dice : int[]
+    + KniffelCalculator()
+    + KniffelCalculator(d1:int, d2:int, d3:int, d4:int, d5:int)
+    + Fours():int
+    + Fives():int
+    + Sixes():int
+    + static Chance(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static Kniffel(dice:int[]):int
+    + static Ones(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static Twos(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static Threes(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static ScorePair(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static TwoPair(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static FourOfAKind(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static ThreeOfAKind(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static SmallStraight(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static LargeStraight(d1:int,d2:int,d3:int,d4:int,d5:int):int
+    + static FullHouse(d1:int,d2:int,d3:int,d4:int,d5:int):int
+  }
+
+  class KniffelCalculatorTest {
+    + testChance():void
+    + testKniffel():void
+    + testOnes():void
+    + testTwos():void
+    + testThrees():void
+    + testFours():void
+    + testFives():void
+    + testSixes():void
+    + testScorePair():void
+    + testTwoPair():void
+    + testFourOfAKind():void
+    + testThreeOfAKind():void
+    + testSmallStraight():void
+    + testLargeStraight():void
+    + testFullHouse():void
+  }
+}
+
+KniffelCalculatorTest ..> KniffelCalculator : uses
+@enduml
+
