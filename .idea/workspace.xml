@@ -3,28 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/excercise0/docs/Relationen.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise7/docs/kniffel_class_diagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/SolidKriterien.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise0/docs/SolidKriterien.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise0/_ReadMe/UML.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/Markdown Cheat Sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/Markdown Cheat Sheet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/TestChecklist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/TestChecklist.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/_Aufgaben.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/_Zusammenfassung.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/_Zusammenfassung.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise1/_ReadMe/tdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/excercise1/docs/tdd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/AcceptanceTestLoops.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/docs/AcceptanceTestLoops.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/KontoauszugTest.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/docs/KontoauszugTest.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise2/_ReadMe/_Aufgaben.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/docs/_Aufgaben.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/_ReadMe/Mocking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/docs/Mocking.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise3/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise3/docs/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/docs/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise6/_ReadMe/classDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/docs/classDiagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise7/_ReadMe/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/docs/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise7/_ReadMe/classDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/docs/classDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +19,11 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/vikto/IdeaProjects/jarai.tdd.java/excercise7" value="3K0j2tAESHBrGvMvQhoeA33LV8c" />
+    </persistenceIdMap>
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="0" />
@@ -71,6 +62,21 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,6 +84,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N.executor": "Run",
@@ -127,11 +134,17 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "copilot.sensitive.allow.file_read.jetbrains_settings_files": "true",
+    "copilot.sensitive.allow.file_write.jetbrains_settings_files": "true",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -143,7 +156,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -188,38 +201,18 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in tdd.pattern_state">
-    <configuration name="AcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uebung3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AcceptanceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uebung3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AcceptanceTest" />
-      <option name="METHOD_NAME" value="Move_MMMMMMMMMM_returns_0_0_N" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in tdd.pattern_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.pattern_state" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in tdd.red_green_refactor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Diffblue Cover.Write tests for method KniffelCalculator.Chance">
+    <configuration name="FizzBuzzGameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd.red_green_refactor" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.jarai.red_green_refactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.jarai.red_green_refactor" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.red_green_refactor.FizzBuzzGameTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,21 +245,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" temporary="true">
+      <settings run-config-name="Unnamed" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method FizzBuzzGame.GetResponse" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="tdd.red_green_refactor" />
+      <settings run-config-name="Write tests for method FizzBuzzGame.GetResponse" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="de.jarai.red_green_refactor.FizzBuzzGame.GetResponse:(I)Ljava/lang/Object;" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method KniffelCalculator.Chance" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="tdd.kniffel_kata" />
+      <settings run-config-name="Write tests for method KniffelCalculator.Chance" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="de.jarai.kniffel_kata.KniffelCalculator.Chance:(IIIII)I" />
+      </settings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in tdd.pattern_state" />
-        <item itemvalue="JUnit.All in tdd.red_green_refactor" />
+        <item itemvalue="Diffblue Cover.Write tests for method KniffelCalculator.Chance" />
+        <item itemvalue="Diffblue Cover.Unnamed" />
+        <item itemvalue="Diffblue Cover.Write tests for method FizzBuzzGame.GetResponse" />
         <item itemvalue="JUnit.KniffelCalculatorTest" />
-        <item itemvalue="JUnit.AcceptanceTest.Move_MMMMMMMMMM_returns_0_0_N" />
-        <item itemvalue="JUnit.AcceptanceTest" />
+        <item itemvalue="JUnit.FizzBuzzGameTests" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
       </set>
     </attachedChunks>
   </component>
@@ -339,7 +357,14 @@
       <workItem from="1725644212795" duration="2195000" />
       <workItem from="1762367860193" duration="109000" />
       <workItem from="1762367999160" duration="957000" />
-      <workItem from="1762368978259" duration="729000" />
+      <workItem from="1762368978259" duration="1014000" />
+      <workItem from="1768406197550" duration="18000" />
+      <workItem from="1768406243332" duration="2000" />
+      <workItem from="1768406480083" duration="8000" />
+      <workItem from="1768406548420" duration="11000" />
+      <workItem from="1768406611721" duration="56000" />
+      <workItem from="1768406686834" duration="81000" />
+      <workItem from="1786213084906" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1698519059162</created>
@@ -523,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762368412683</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=".">
+      <option name="closed" value="true" />
+      <created>1762369867949</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1762369867949</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,5 +606,13 @@
     <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_red_green_refactor.ic" NAME="All in tdd.red_green_refactor Coverage Results" MODIFIED="1724493866785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_testdoubles.ic" NAME="All in tdd.testdoubles Coverage Results" MODIFIED="1724494068537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/jarai_tdd_java$All_in_tdd_pattern_state.ic" NAME="All in tdd.pattern_state Coverage Results" MODIFIED="1724495715839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
