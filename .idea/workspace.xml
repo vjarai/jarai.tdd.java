@@ -8,8 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660bdec2-9746-41f0-84ec-2d54efee0e63" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/tdd.outside_in.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise4/tdd.pattern_state.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise4/tdd.pattern_state.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/tdd.pattern_adapter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise6/tdd.marsrover_kata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise7/src/test/de/jarai/kniffel_kata/KniffelCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/src/test/de/jarai/kniffel_kata/KniffelCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excercise7/tdd.kniffel_kata.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +70,19 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
     <option name="panelTemplate">
       <template>
         <option name="modeId" value="Agent" />
@@ -99,9 +119,11 @@
     "JUnit.All in tdd.kniffel_kata.executor": "Run",
     "JUnit.All in tdd.marsrover_kata.executor": "Run",
     "JUnit.All in tdd.outside_in.executor": "Coverage",
+    "JUnit.All in tdd.pattern_adapter.executor": "Run",
     "JUnit.All in tdd.pattern_state.executor": "Run",
     "JUnit.All in tdd.red_green_refactor.executor": "Run",
     "JUnit.All in tdd.testdoubles.executor": "Run",
+    "JUnit.ApplePhoneTests.executor": "Run",
     "JUnit.DirectionTests.executor": "Run",
     "JUnit.FizzBuzzGameTests.executor": "Run",
     "JUnit.FizzBuzzTests.FizzBuzz_given_15_should_FizzBuzz.executor": "Run",
@@ -127,6 +149,7 @@
     "JUnit.PhoneTests.givenPhoneIsPickedUp_whenHangUp_thenDoesntThrowAnException.executor": "Run",
     "JUnit.RoverTest.executor": "Run",
     "JUnit.Whole project.executor": "Run",
+    "JUnit.de.jarai.outside_in in tdd.outside_in.executor": "Run",
     "JUnit.de.jarai.patterns.state.solution1 in tdd.pattern_state.executor": "Run",
     "JUnit.de.jarai.rover in tdd.marsrover_kata.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -138,6 +161,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.KniffelCalculatorTest.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -156,9 +181,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.14521453",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
@@ -201,33 +226,61 @@
       <recent name="de.jarai.rover" />
     </key>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for method KniffelCalculator.Chance">
-    <configuration name="FizzBuzzGameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.red_green_refactor" />
+  <component name="RunManager" selected="TestNG.KniffelCalculatorTest">
+    <configuration name="MotorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.testdoubles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.jarai.red_green_refactor.*" />
+          <option name="PATTERN" value="de.jarai.test_doubles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.red_green_refactor" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.red_green_refactor.FizzBuzzGameTests" />
+      <option name="PACKAGE_NAME" value="de.jarai.test_doubles" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.test_doubles.MotorTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KniffelCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd.kniffel_kata" />
+    <configuration name="PhoneTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.pattern_state" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.jarai.kniffel_kata.*" />
+          <option name="PATTERN" value="de.jarai.patterns.state.solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.jarai.kniffel_kata" />
-      <option name="MAIN_CLASS_NAME" value="de.jarai.kniffel_kata.KniffelCalculatorTest" />
+      <option name="PACKAGE_NAME" value="de.jarai.patterns.state.solution1" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.patterns.state.solution1.PhoneTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.jarai.rover in tdd.marsrover_kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.marsrover_kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.jarai.rover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.jarai.rover" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.jarai.test_doubles in tdd.testdoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd.testdoubles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.jarai.test_doubles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.jarai.test_doubles" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,38 +298,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" temporary="true">
-      <settings run-config-name="Unnamed" include-system-env-vars="true" skeleton-tests-only="false">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-      </settings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Write tests for method FizzBuzzGame.GetResponse" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="tdd.red_green_refactor" />
-      <settings run-config-name="Write tests for method FizzBuzzGame.GetResponse" include-system-env-vars="true" skeleton-tests-only="false">
-        <jvm-args />
-        <selection-scope>method</selection-scope>
-        <selected-element key="de.jarai.red_green_refactor.FizzBuzzGame.GetResponse:(I)Ljava/lang/Object;" />
-      </settings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Write tests for method KniffelCalculator.Chance" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="KniffelCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tdd.kniffel_kata" />
-      <settings run-config-name="Write tests for method KniffelCalculator.Chance" include-system-env-vars="true" skeleton-tests-only="false">
-        <jvm-args />
-        <selection-scope>method</selection-scope>
-        <selected-element key="de.jarai.kniffel_kata.KniffelCalculator.Chance:(IIIII)I" />
-      </settings>
-      <method v="2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.jarai.kniffel_kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.jarai.kniffel_kata" />
+      <option name="MAIN_CLASS_NAME" value="de.jarai.kniffel_kata.KniffelCalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MotorTests" />
+      <item itemvalue="JUnit.PhoneTests" />
+      <item itemvalue="JUnit.de.jarai.rover in tdd.marsrover_kata" />
+      <item itemvalue="JUnit.de.jarai.test_doubles in tdd.testdoubles" />
+      <item itemvalue="TestNG.KniffelCalculatorTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Diffblue Cover.Write tests for method KniffelCalculator.Chance" />
-        <item itemvalue="Diffblue Cover.Unnamed" />
-        <item itemvalue="Diffblue Cover.Write tests for method FizzBuzzGame.GetResponse" />
-        <item itemvalue="JUnit.KniffelCalculatorTest" />
-        <item itemvalue="JUnit.FizzBuzzGameTests" />
+        <item itemvalue="TestNG.KniffelCalculatorTest" />
+        <item itemvalue="JUnit.de.jarai.rover in tdd.marsrover_kata" />
+        <item itemvalue="JUnit.de.jarai.test_doubles in tdd.testdoubles" />
+        <item itemvalue="JUnit.MotorTests" />
+        <item itemvalue="JUnit.PhoneTests" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +639,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/excercise4/src/test/de/jarai/patterns/state/solution2/PhoneTests.java</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

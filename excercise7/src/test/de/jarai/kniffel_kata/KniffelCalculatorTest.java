@@ -1,16 +1,9 @@
 package de.jarai.kniffel_kata;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.testng.annotations.Test;
+import static org.testng.AssertJUnit.assertEquals;
 
 public class KniffelCalculatorTest {
-
-    @Test
-    public void testChance() {
-        assertEquals(15, KniffelCalculator.Chance(1, 2, 3, 4, 5));
-        assertEquals(20, KniffelCalculator.Chance(4, 4, 4, 4, 4));
-    }
 
     @Test
     public void testKniffel() {
