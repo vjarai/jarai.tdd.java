@@ -1,7 +1,9 @@
 package de.jarai.kniffel_kata;
 
-import org.testng.annotations.Test;
-import static org.testng.AssertJUnit.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class KniffelCalculatorTest {
 
