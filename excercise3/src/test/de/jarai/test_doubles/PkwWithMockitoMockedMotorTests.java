@@ -28,6 +28,6 @@ public class PkwWithMockitoMockedMotorTests {
         target.Fahren(100);
 
         // Assert
-        Mockito.verify(motorMock).Abstellen();
+        Mockito.verify(motorMock, Mockito.times(1)).Abstellen();
     }
 }
